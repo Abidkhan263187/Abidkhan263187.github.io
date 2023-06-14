@@ -1,0 +1,54 @@
+@import "~github-calendar/dist/github-calendar-responsive.css";
+
+.skillName{
+    color: aqua;
+    font-weight: 700;
+    font-size: large;
+    margin-top: 10px;
+}
+
+.skillNameTitle{
+ 
+    color: aqua;
+    font-weight: 700;
+    font-size: x-large;
+    margin-top: 10px;
+}
+
+
+/* stat part start  */
+.calendar img{
+    width: 90%;
+    margin: auto;
+   
+}
+.calendar{
+    margin-top: 10px;
+    border: 1px solid aqua;
+    padding: 20px;
+}
+.stat-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* background-color: gray; */
+    /* border: 1px solid; */
+    padding: 20px 60px;
+    width: 80%;
+    margin: 50px auto;
+    gap: 40px;
+}
+.stat-container img{
+    width: 100%;
+    border-radius: 20px;
+    background-color: transparent;
+}
+.stat-container div{
+    /* width: 100%; */
+    border: 1px solid aqua;
+}
+.statthree{
+    margin-left: 70%;
+    background-color: transparent;
+    width: 60%;
+}
+/* stat part end  */

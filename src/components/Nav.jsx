@@ -18,7 +18,7 @@ export const Nav = () => {
   ];
  const onClickhandler = () => {
     return window.open(
-      "https://drive.google.com/file/d/1mp9pHHSYGICZnQi8MncxAKVCE90DR6ZR/view?usp=share_link",
+      "https://drive.google.com/file/d/1TdpuWrgC7Yp_Wj06uhY7SqM5324FH2xt/view?usp=sharing",
       "_blank"
     );
   };
@@ -89,7 +89,7 @@ export const Nav = () => {
           bg="brand_secondary"
           color="brand"
           _hover={{ bg: "balck", color: "green.600" }}
-          href="/Muhammed_Fahiz_Resume.pdf"
+          href="/Abid_Resume.pdf"
           download={true}
           onClick={onClickhandler}
         >

@@ -5,7 +5,12 @@ import { Project } from './Project'
 import { Contacts } from './Contacts'
 import { Box } from '@chakra-ui/react'
 import { Intro } from './Intro'
+
+import "./Home.css"
+
 import { Stats } from './Stats'
+
+
 
 
 
@@ -18,6 +23,7 @@ export const Home = () => {
             <Skills />
             <Project />
             <Stats/>
+       
             <Contacts />
         </Box>
     )
