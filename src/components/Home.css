@@ -1,5 +1,10 @@
 @import "~github-calendar/dist/github-calendar-responsive.css";
 
+*{
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+}
 /* intro part start  */
 .intro_box {
     display: flex;
@@ -7,10 +12,10 @@
 }
 
 .intro_left {
-    border: 1px solid;
+   
     padding: 60px 100px;
     width: 50%;
-    border: 1px solid
+    /* border: 1px solid */
 }
 
 .intro_pic {
@@ -21,7 +26,7 @@
 
 
 .intro_right {
-    border: 1px solid;
+   
     padding: 20px 0px;
     width: 50%
 }
@@ -36,25 +41,26 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 2px solid;
-    padding: 10px 20px;
-    margin: 100px 0px
+    /* border: 2px solid; */
+   width: 95%;
+    margin: 100px auto;
 }
 
 .about_left {
-    width: 40%;
-    border: 1px solid;
+    width: 50%;
+   
     padding: 60px 100px
 }
 
 .about_right {
-    border: 1px solid;
+   
     width: 55%;
-    padding: 40px 40px
+    padding: 50px 40px
 }
 
 .about_left>img {
-    width: 100%
+    width: 100%;
+    border-radius: 10px;
 }
 
 /* about part end  */
@@ -64,30 +70,36 @@
 
 .skill-container-inner {
     display: flex;
-    height: 500px;
+    height: max-content;
+    /* border: 1px solid ; */
 }
-
+.skill-container {
+    /* border:1px solid; */
+    width: 95%;
+    margin: auto;
+}
 .skills_left {
     width: 50%;
-    border: 1px solid
+    /* border: 1px solid */
 }
 
 .left_dup {
     height: 400px;
-    border: 1px solid;
+   
     padding: 40px
 }
 
 .left_dup>img {
     width: 70%;
-    margin: auto
+    margin: auto;
+    border-radius: 10px;
 }
 
 .left_real {
     height: 400px;
     padding: 10px 30px;
     text-align: center;
-    border: 1px solid
+    /* border: 1px solid */
 }
 
 #frontend_skills {
@@ -95,24 +107,31 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 10px 20px;
+  
+}
+#frontend_skills div{
+    border:5px solid #03c8d7;
+    border-radius: 10px;
 }
 
 .fontSkill_img {
-    width: 45%;
+    width: 35%;
     display: block;
-    margin: auto
+    margin: auto;
+  
+
 }
 
 .skills_right {
     width: 50%;
-    border: 1px solid
+    /* border: 1px solid */
 }
 
 .right_real {
     height: 400px;
     padding: 10px 30px;
     text-align: center;
-    border: 1px solid
+    /* border: 1px solid */
 }
 
 .back_end_skills {
@@ -121,35 +140,45 @@
     gap: 20px;
     padding: 10px 20px;
 }
+.back_end_skills div{
+    border:5px solid #03c8d7;
+    border-radius: 10px;
+   
+}
 
 .backEnd_img {
-    width: 50%;
+    width: 35%;
     display: block;
-    margin: auto
+    margin: auto;
 }
 
 .right_dup {
     height: 400px;
-    border: 1px solid;
+   
     padding: 40px
 }
 
 .right_dup>img {
     width: 70%;
-    margin: auto
+    margin: auto;
+    border-radius: 10px;
 }
 
 .OtherSkills-inner {
-    border: 2px solid;
+    /* border: 2px solid; */
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(4, 1fr);
     padding: 40px 80px;
     text-align: center
 }
+.OtherSkills-inner div{
+    border:5px solid #03c8d7;
+    border-radius: 10px;
+}
 
 .tool_skill_img {
-    width: 30%;
+    width: 20%;
     display: block;
     margin: auto
 }
@@ -162,15 +191,18 @@
 
 
 .skillName {
-    color: aqua;
+    color: #03c8d7;
     font-weight: 700;
     font-size: large;
     margin-top: 10px;
 }
+.tool{
+    padding: 0px 60px;
+}
 
 .skillNameTitle {
 
-    color: aqua;
+    color: #03c8d7;
     font-weight: 700;
     font-size: x-large;
     margin-top: 10px;
@@ -191,7 +223,7 @@
 .project_main {
     margin: auto;
     width: max-content;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     gap: 50px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -212,7 +244,7 @@
 
 .calendar {
     margin-top: 50px;
-    border: 1px solid aqua;
+    border: 1px solid #03c8d7;
     padding: 20px;
 }
 
@@ -220,7 +252,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     /* background-color: gray; */
-    /* border: 1px solid; */
+   
     padding: 20px 60px;
     width: 80%;
     margin: 50px auto;
@@ -235,7 +267,7 @@
 
 .stat-container div {
     /* width: 100%; */
-    border: 1px solid aqua;
+    border: 1px solid #03c8d7;
 }
 
 .statthree {
@@ -259,7 +291,7 @@
     }
 
     .intro_left div {
-        /* border: 1px solid; */
+       
         width: 100%;
         margin: auto;
 
@@ -272,7 +304,7 @@
     }
 
     .intro_right {
-        border: 1px solid;
+       
         padding: 10px 10px;
         width: 100%;
         margin: 40px 0px
@@ -285,8 +317,9 @@
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-between;
-        border: 2px solid;
+        /* border: 2px solid; */
         padding: 10px 20px;
+        width: 100%;
         margin: 40px 0px
     }
 
@@ -297,11 +330,12 @@
 
     .about_left>img {
         width: 400px;
-        /* border: 1px solid; */
+     
+       
     }
 
     .about_right div {
-        /* border: 1px solid; */
+       
         width: 100%;
         margin: auto;
 
@@ -327,18 +361,23 @@
     .skill-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        width: 100%;
     }
 
+    .tool{
+        padding:0px 20px;
+        font-size: medium;
+        
+    }
     .skills_right {
         width: 100%;
-        border: 1px solid
+        /* border: 1px solid */
     }
 
     .fontSkill_img {
-        width: 100px;
-        height: 50px;
-        display: block;
-        margin: auto
+        width: 50%;
+        height: 80px;
+      
     }
 
     #frontend_skills {
@@ -346,7 +385,7 @@
     }
 
     #frontend_skills div {
-        border: 1px solid;
+        border: 3px solid #03c8d7;
 
     }
 
@@ -354,34 +393,36 @@
         height: 100%;
         padding: 10px 30px;
         text-align: center;
-        /* border: 1px solid; */
-        color: aqua;
+       
+        color: #03c8d7;
     }
 
     .left_dup {
         width: 100%;
         padding: 20px;
         height: 300px;
-        border: 1px solid;
+       
     }
 
     .left_dup>img {
         width: 100%;
-        /* border: 1px solid; */
+       
         margin: 3% auto;
+       
     }
 
     .right_dup {
         width: 100%;
         padding: 20px;
         height: 300px;
-        border: 1px solid;
+       
     }
 
     .right_dup>img {
         width: 100%;
-        /* border: 1px solid; */
+       
         margin: 3% auto;
+       
     }
 
     .skills_right {
@@ -390,23 +431,32 @@
     }
 
     .right_real {
-        height: 400px;
-        padding: 10px 10px;
+        height: max-content;
+         margin: auto;
+        padding: 10px 20px;
         text-align: center;
-        /* border: 1px solid; */
-        color: aqua;
+        color: #03c8d7;
+       
     }
-
+    .back_end_skills div{
+        border:3px solid #03c8d7;
+        width: 100px;
+        border-radius: 10px;
+       
+    }
+    .back_end_skills {
+        grid-template-columns: repeat(2, 1fr);
+    }
 
     .backEnd_img {
         width: 100px;
         height: 70px;
-        display: block;
-        margin: auto
+        margin: auto;
+        /* border:1px solid */
     }
 
     .OtherSkills-inner {
-        border: 2px solid;
+        /* border: 2px solid; */
         display: grid;
         gap: 20px;
 
@@ -414,11 +464,14 @@
         padding: 40px 40px;
         text-align: center
     }
+    .OtherSkills-inner div{
+        border:3px solid #03c8d7;
+    }
 
     #OtherSkills_container {
-        margin-top: 300px;
+        margin-top: 40px;
         padding: 10px;
-        color: aqua;
+        color: #03c8d7;
     }
 
     /* project  */
@@ -457,7 +510,7 @@
 
 .stat-container div {
     width: 100%;
-    border: 1px solid aqua;
+    border: 1px solid #03c8d7;
 }
 
 .statthree {
@@ -482,7 +535,7 @@
     }
 
     .intro_left div {
-        /* border: 1px solid; */
+       
         width: 100%;
         margin: auto;
 
@@ -495,7 +548,7 @@
     }
 
     .intro_right {
-        border: 1px solid;
+       
         padding: 10px 10px;
         width: 100%;
         margin: 40px 0px
@@ -514,7 +567,7 @@
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-between;
-        border: 2px solid;
+        /* border: 2px solid; */
         padding: 10px 60px;
         margin: 40px 0px
     }
@@ -527,11 +580,11 @@
     .about_left>img {
         width: 100%;
         margin: auto;
-        border: 1px solid;
+       
     }
 
     .about_right div {
-        /* border: 1px solid; */
+       
         width: 100%;
         margin: auto;
 
@@ -563,15 +616,15 @@
         height: 100%;
         padding: 10px 30px;
         text-align: center;
-        /* border: 1px solid; */
-        color: aqua;
+       
+        color: #03c8d7;
     }
 
     .left_dup {
         width: 100%;
         padding: 20px;
         height: 500px;
-        border: 1px solid;
+       
     }
     .fontSkill_img {
         width: 200px;
@@ -584,20 +637,17 @@
         height: 90%;
         margin: 3% auto;
     }
-    #frontend_skills div {
-        border: 1px solid;
-
-    }
+  
     .right_dup {
         width: 100%;
         padding: 20px;
         height: 500px;
-        border: 1px solid;
+       
     }
 
     .right_dup>img {
         width: 70%;
-        /* border: 1px solid; */
+       
         margin: 3% auto;
     }
     .skills_right {
@@ -606,30 +656,34 @@
     }
 
     .right_real {
-        height: 400px;
-        padding: 10px 10px;
-        text-align: center;
-        border: 1px solid;
-        color: aqua;
+        height: max-content;
+        padding: 40px 10px;
+       
+        color: #03c8d7;
     }
 
 
     .backEnd_img {
-        width: 200px;
+        width: 80%;
         height: 100px;
         display: block;
-        margin: auto
+        margin: auto;
+       
     }
     .back_end_skills div{
         width: 200px;
     }
-   
-    #java{
-        margin-left: 30px;
+    .back_end_skills {
+        grid-template-columns: repeat(3, 1fr);
     }
+
+   
+    /* #java{
+        margin-left: 30px;
+    } */
    
     .OtherSkills-inner {
-        border: 2px solid;
+        /* border: 2px solid; */
         display: grid;
         gap: 20px;
 
@@ -645,9 +699,9 @@
           width:120px
     }
     #OtherSkills_container {
-        margin-top: 500px;
+        margin-top: 50px;
         padding: 10px;
-        color: aqua;
+        color: #03c8d7;
     }
     
      /* project  */
@@ -686,7 +740,7 @@
 .stat-container div {
     width: 80%;
     margin: auto;
-    border: 1px solid aqua;
+    border: 1px solid #03c8d7;
 }
 
 .statthree {
@@ -698,11 +752,13 @@
    
 }
 
-
- 
-
-
-
 @media (min-width: 1025px) {
     /* styles for screens larger than 1024px */
 }
+
+
+
+/* =================== scroll part ====================== */
+
+
+

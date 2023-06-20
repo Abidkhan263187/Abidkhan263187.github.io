@@ -1,5 +1,8 @@
- import { Avatar, Box, Button, Flex, IconButton, Image, Text, BiLike, BiChat, BiShare, Heading, BsThreeDotsVertical, HStack, Center } from '@chakra-ui/react'
+import { Box, Text} from '@chakra-ui/react'
 import React from 'react'
+import fur from './images/funiture_project.png'
+import flip from './images/flipkart.png'
+import boat from './images/boat.png'
 
 import { ProjectCard } from './ProjectCard'
 
@@ -7,13 +10,16 @@ export const Project = () => {
   return (
     <Box className='project-container' id='Projects' >
 
-      <Text fontSize={[ "3xl","4xl","4xl", "4xl"]} mb={"30px"} fontWeight={"700"} textAlign={"center"}>Projects</Text>
+      <Text data-aos="fade-right" data-aos-duration="1000"
+        fontSize={["3xl", "4xl", "4xl", "4xl"]} mb={"30px"}
+        color={"#03c8d7"} fontWeight={"700"}
+        textAlign={"center"} border={"1px solid" } w={'max-content'} margin={"40px auto"} padding={"0px 40px"}>Projects</Text>
 
       <Box className='project_main'>
-       <ProjectCard/>
-       <ProjectCard/>
-       <ProjectCard/>
-       <ProjectCard/>
+        <ProjectCard github="https://github.com/Abidkhan263187/Project-Furnitore-store" link="https://furniture-store-mu.vercel.app/"  avatar={fur} name="Furniture Store" desc="Furniture Store: Your One-Stop Shop for Stylish Home Furnishings. Create your dream living space with our versatile products."/>
+        <ProjectCard github="https://github.com/Abidkhan263187/Project-FlipKart-Website-Clone" link="https://flipkartclone-black.vercel.app/index.html" avatar={flip} name="Flipkart" desc="Flipkart: India's Leading Online Shopping Destination. Shop from the comfort of your home with Flipkart's user-friendly interface."/>
+        <ProjectCard   avatar={boat}name="Boat LifeStyles" desc="Explore the fascinating world of boats with our interactive website, showcasing stunning images of products"/>
+        <ProjectCard  avatar={flip} name="Project Blog" desc="Explore our blog website, where ideas come to life. Dive into a world of engaging narratives, expert opinions, and helpful guides"/>
       </Box>
     </Box>
   )

@@ -10,17 +10,17 @@ export const AboutMe = () => {
   return (
     <Box className='about_main'  id="About" >
 
-      <Box className='about_left' >
-        <img  src='https://matlensilver.com/wp-content/uploads/2021/07/IT-Staffing.gif' />
+      <Box className='about_left' data-aos="zoom-in-down" >
+        <img  src='https://i.gifer.com/BUxj.gif' />
       </Box>
       <Box className='about_right' >
-        <Box> <Text fontSize={["25px", "25px", "40px", "3xl"]} fontWeight={"700"} >About me</Text> </Box>
-        <Box> <Text fontSize={["20px", "20px", "30px", "2xl"]} fontWeight={"700"}> <span style={{ color: "#03c8d7" }}> Full Stack </span>Web Developer </Text></Box>
-        <Box className='about_me'> <Text m={"20px 0px"}>I am a passionate web developer driven by a relentless
+        <Box data-aos="fade-down" data-aos-duration="1200"> <Text fontSize={["25px", "25px", "40px", "3xl"]} fontWeight={"700"} >About me</Text> </Box>
+        <Box data-aos="fade-up" data-aos-duration="1300">  <Text fontSize={["20px", "20px", "30px", "2xl"]} fontWeight={"700"}> <span style={{ color: "#03c8d7" }}> Full Stack </span>Web Developer </Text></Box>
+        <Box className='about_me' data-aos="fade-down" data-aos-duration="1350"> <Text m={"20px 0px"}>I am a passionate web developer driven by a relentless
           pursuit of excellence. With a meticulous attention to detail and
           a commitment to delivering pixel-perfect designs, I create immersive
           and engaging web experiences that leave a lasting impression</Text></Box>
-        <Box><Button  size={["sm", "md", "lg", "lg"]} color={"white"} _hover={{ bg: "gray.900", color: "#03c8d7", borderRadius: "10px" }} bg={"#03c8d7"} onClick={handleReadMoreClick}>{showMoreDetails ? "Read less" : "Read more"}</Button></Box>
+        <Box  data-aos="fade-up-right" data-aos-duration="500"><Button  fontSize={"large"} size={["sm", "md", "lg", "lg"]} color={"white"} _hover={{ bg: "gray.900", color: "#03c8d7", borderRadius: "10px" }} bg={"#03c8d7"} onClick={handleReadMoreClick}>{showMoreDetails ? "Read less" : "Read more"}</Button></Box>
         {showMoreDetails && <Box className='more-detail' mt={"30px"} >
        
           <Box>

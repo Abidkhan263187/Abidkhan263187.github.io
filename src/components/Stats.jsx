@@ -5,19 +5,19 @@ import GitHubCalendarComponent from './GitHubCalendarComponent';
 export const Stats = () => {
     return (
         <Box id="Statistics" >
-            <Heading textAlign={'center'} fontSize={["2xl","3xl","4xl","4xl"]} >My Git  <span  style={{ color: "#03c8d7" }}>Calender</span></Heading>
+            <Heading data-aos="fade-down" textAlign={'center'} fontSize={["2xl","3xl","4xl","4xl"]} >My Git  <span  style={{ color: "#03c8d7" }}>Calender</span></Heading>
             <GitHubCalendarComponent />
-            <Heading textAlign={'center'} fontSize={["2xl","3xl","4xl","4xl"]}> My github  <span  style={{ color: "#03c8d7" }}>stats</span></Heading>
+            <Heading data-aos="fade-down" data-aos-duration="1000" textAlign={'center'} fontSize={["2xl","3xl","4xl","4xl"]}> My github  <span  style={{ color: "#03c8d7" }}>stats</span></Heading>
             <Box className='stat-container'>
-                <Box className='statone'>
+                <Box className='statone' data-aos="fade-up">
                     <img 
                         src="https://github-readme-stats.vercel.app/api?username=abidkhan263187&theme=transparent&hide_border=true&include_all_commits=false&count_private=false"
                         alt="GitHub Stats"/>
                 </Box>
-                <Box className='stattwo'> 
+                <Box className='stattwo' data-aos="fade-down" data-aos-duration="1000" > 
                 <img src="https://github-readme-streak-stats.herokuapp.com/?user=abidkhan263187&theme=transparent&hide_border=true" alt="GitHub Streak Stats" />
                </Box>
-                <Box className='statthree'> <img
+                <Box className='statthree' data-aos="fade-up" data-aos-duration="1000" > <img
                     src="https://github-readme-stats.vercel.app/api/top-langs/?username=abidkhan263187&theme=transparent&hide_border=true&include_all_commits=false&count_private=false&layout=compact"
                     alt="GitHub Top Languages" />
                   </Box>

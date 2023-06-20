@@ -3,7 +3,7 @@ import { AboutMe } from './AboutMe'
 import { Skills } from './Skills'
 import { Project } from './Project'
 import { Contacts } from './Contacts'
-import { Box } from '@chakra-ui/react'
+import { Box, Divider } from '@chakra-ui/react'
 import { Intro } from './Intro'
 
 import "./Home.css"
@@ -18,10 +18,15 @@ import { Stats } from './Stats'
 export const Home = () => {
     return (
         <Box id="Home">
+           
             <Intro/>
+            <Divider/>
           <AboutMe />
-            <Skills />
-              <Project /> 
+          <Divider/>
+          <Skills />
+          <Divider/>
+          <Project /> 
+          <Divider/>
            <Stats/> 
        
            { /*  <Contacts /> */}
