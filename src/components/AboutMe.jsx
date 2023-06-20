@@ -8,19 +8,19 @@ export const AboutMe = () => {
     setShowMoreDetails((prevState) => !prevState);
   }
   return (
-    <Box display={"flex"} flexDirection={"row"} justifyContent={"space-between"} className='about-container' border={"2px solid"} padding={"10px 20px"} m={"100px 0px"}  >
+    <Box className='about_main'  id="About" >
 
-      <Box className='about-left' width={"40%"} border={"1px solid"} padding={"60px 100px"}>
-        <img width={"100%"} src='https://matlensilver.com/wp-content/uploads/2021/07/IT-Staffing.gif' />
+      <Box className='about_left' >
+        <img  src='https://matlensilver.com/wp-content/uploads/2021/07/IT-Staffing.gif' />
       </Box>
-      <Box className='about-right' border={"1px solid"} w={"55%"} padding={"40px 40px"}>
-        <Box> <Text fontSize={"3xl"} fontWeight={"700"} >About me</Text> </Box>
-        <Box> <Text fontSize={"2xl"} fontWeight={"700"}> <span style={{ color: "#03c8d7" }}> Full Stack </span>Web Developer </Text></Box>
-        <Box> <Text m={"20px 0px"}>I am a passionate web developer driven by a relentless
+      <Box className='about_right' >
+        <Box> <Text fontSize={["25px", "25px", "40px", "3xl"]} fontWeight={"700"} >About me</Text> </Box>
+        <Box> <Text fontSize={["20px", "20px", "30px", "2xl"]} fontWeight={"700"}> <span style={{ color: "#03c8d7" }}> Full Stack </span>Web Developer </Text></Box>
+        <Box className='about_me'> <Text m={"20px 0px"}>I am a passionate web developer driven by a relentless
           pursuit of excellence. With a meticulous attention to detail and
           a commitment to delivering pixel-perfect designs, I create immersive
           and engaging web experiences that leave a lasting impression</Text></Box>
-        <Box><Button color={"white"} _hover={{ bg: "gray.900", color: "#03c8d7", borderRadius: "10px" }} bg={"#03c8d7"} onClick={handleReadMoreClick}>{showMoreDetails ? "Read less" : "Read more"}</Button></Box>
+        <Box><Button  size={["sm", "md", "lg", "lg"]} color={"white"} _hover={{ bg: "gray.900", color: "#03c8d7", borderRadius: "10px" }} bg={"#03c8d7"} onClick={handleReadMoreClick}>{showMoreDetails ? "Read less" : "Read more"}</Button></Box>
         {showMoreDetails && <Box className='more-detail' mt={"30px"} >
        
           <Box>

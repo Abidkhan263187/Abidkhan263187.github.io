@@ -4,13 +4,13 @@ import GitHubCalendarComponent from './GitHubCalendarComponent';
 
 export const Stats = () => {
     return (
-        <Box >
-            <Heading textAlign={'center'}>My Git  <span  style={{ color: "#03c8d7" }}>Calender</span></Heading>
+        <Box id="Statistics" >
+            <Heading textAlign={'center'} fontSize={["2xl","3xl","4xl","4xl"]} >My Git  <span  style={{ color: "#03c8d7" }}>Calender</span></Heading>
             <GitHubCalendarComponent />
-            <Heading textAlign={'center'}> My github  <span  style={{ color: "#03c8d7" }}>stats</span></Heading>
+            <Heading textAlign={'center'} fontSize={["2xl","3xl","4xl","4xl"]}> My github  <span  style={{ color: "#03c8d7" }}>stats</span></Heading>
             <Box className='stat-container'>
                 <Box className='statone'>
-                    <img
+                    <img 
                         src="https://github-readme-stats.vercel.app/api?username=abidkhan263187&theme=transparent&hide_border=true&include_all_commits=false&count_private=false"
                         alt="GitHub Stats"/>
                 </Box>

@@ -17,14 +17,14 @@ import { Stats } from './Stats'
 
 export const Home = () => {
     return (
-        <Box>
+        <Box id="Home">
             <Intro/>
-            <AboutMe />
+          <AboutMe />
             <Skills />
-            <Project />
-            <Stats/>
+              <Project /> 
+           <Stats/> 
        
-            <Contacts />
+           { /*  <Contacts /> */}
         </Box>
     )
 }

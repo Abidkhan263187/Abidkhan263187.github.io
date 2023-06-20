@@ -88,7 +88,7 @@ export const Nav = () => {
           target="_blank"
           bg="brand_secondary"
           color="brand"
-          _hover={{ bg: "balck", color: "green.600" }}
+          _hover={{bg: "gray.900", color:"#03c8d7" }}
           href="/Abid_Resume.pdf"
           download={true}
           onClick={onClickhandler}
@@ -144,7 +144,7 @@ export const Nav = () => {
             color="brand"
             border="1px"
             borderRadius="10px"
-            href="/Muhammed_Fahiz_Resume.pdf"
+            href="/Abid_Resume.pdf"
             download={true}
             onClick={onClickhandler}
           >
