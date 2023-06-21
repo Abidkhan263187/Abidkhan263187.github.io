@@ -8,9 +8,9 @@ export const Skills = () => {
     <Box className='skill-container'id='Skills'>
       <Text data-aos="flip-up" data-aos-duration="1000"
         textAlign={"center"} margin={"auto"} w={"max-content"}
-       
+       border={"1px solid"}
         color={"#03c8d7"}
-        padding={"0px 40px"}
+        padding={"0px 60px"}
         fontWeight= "700"
         fontSize={["2xl", "2xl", "3xl", "4xl"]}>
           <span style={{ color: "white" ,fontWeight:"400"}}>

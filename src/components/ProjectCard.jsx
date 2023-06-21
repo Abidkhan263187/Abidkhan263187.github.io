@@ -1,7 +1,7 @@
 import React from 'react'
-import { Box, Button, Flex, Image, Text, Heading, Link } from '@chakra-ui/react'
+import { Box, Button, Flex, Image, Text, Heading, Link} from '@chakra-ui/react'
 import { Card, CardHeader, CardBody, CardFooter } from '@chakra-ui/react'
-export const ProjectCard = ({name,desc,avatar,link,github}) => {
+export const ProjectCard = ({name,desc,avatar,link,github,tech }) => {
   return (
     <Card data-aos="zoom-in-down" data-aos-duration="1000" className='project_card' maxW={["290px", "sm", "350px", "md"]}  bg={"#03c8d7"} color={"white"} >
       <CardHeader>
@@ -23,9 +23,7 @@ export const ProjectCard = ({name,desc,avatar,link,github}) => {
         <Text mt={"10px"} fontSize={["lg","lg","xl","xl"]} >
          {desc}
         </Text>
-        <Text mt={"10px"} fontSize={["lg","lg","xl","xl"]}>
-          <span style={{ color: "#03c8d7", fontWeight: "700" }}>TECH STACK :</span> React | Redux | CSS | HTML | JavaScript | JSON
-        </Text>
+        <Text mt={"10px"} fontSize={["lg","lg","xl","xl"]}>  <span style={{ color: "#03c8d7", fontWeight: "700" }}>TECH STACK :</span>{tech} </Text>
       </CardBody>
 
 
