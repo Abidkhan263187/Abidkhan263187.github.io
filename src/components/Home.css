@@ -19,7 +19,7 @@
     /* border: 1px solid */
 }
 
-.intro_pic {
+.home-img {
     margin: auto;
     width: 90%;
     padding: 10px 50px;
@@ -62,7 +62,7 @@
 
 /* about part start  */
 
-.about_main {
+#about {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -93,19 +93,19 @@
 
 /* skill part start  */
 
-.skill-container-inner {
+#skill-container-inner {
     display: flex;
     height: max-content;
     /* border: 1px solid ; */
 }
 
-.skill-container {
+#skills {
     /* border:1px solid; */
     width: 95%;
     margin: auto;
 }
 
-.skills_left {
+#skills_left {
     width: 50%;
     /* border: 1px solid */
 }
@@ -122,7 +122,7 @@
     border-radius: 10px;
 }
 
-.left_real {
+#left_real {
     height: 500px;
     padding: 10px 30px;
     text-align: center;
@@ -149,7 +149,7 @@
     border-radius: 10px;
 }
 
-.fontSkill_img {
+#fontSkill_img {
     width: 35%;
     display: block;
     margin: auto;
@@ -157,12 +157,12 @@
 
 }
 
-.skills_right {
+#skills_right {
     width: 50%;
     /* border: 1px solid */
 }
 
-.right_real {
+#right_real {
     height: 500px;
     padding: 10px 30px;
     text-align: center;
@@ -190,7 +190,7 @@
 
 }
 
-.backEnd_img {
+#backEnd_img {
     width: 35%;
     display: block;
     margin: auto;
@@ -230,20 +230,20 @@
   }
   
 
-.tool_skill_img {
+#tool_skill_img {
     width: 20%;
     display: block;
     margin: auto
 }
 
-.tool_skill_img2 {
+#tool_skill_img2 {
     width: 50%;
     display: block;
     margin: auto
 }
 
 
-.skillName {
+#skillName {
     color: #03c8d7;
     font-weight: 700;
     font-size: large;
@@ -266,11 +266,11 @@
 
 
 /* project part start  */
-.project-container {
+#project {
     margin: 40px 0px;
 }
 
-.project_card {
+.project-card {
     padding: 7px;
 }
 #card_img {
@@ -308,7 +308,7 @@
 
 }
 
-#Statistics {
+#statistics {
     margin-top: 100px;
 }
 
@@ -367,7 +367,7 @@
 
     }
 
-    .intro_pic {
+    .home-img {
         margin: auto;
         width: 100%;
         padding: 20px 0px;
@@ -382,7 +382,7 @@
 
 
     /* about  */
-    .about_main {
+    #about {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -417,18 +417,18 @@
     }
 
     /* skill  */
-    .skill-container-inner {
+    #skill-container-inner {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .skills_left {
+    #skills_left {
         width: 100%;
         padding: 10px;
 
     }
 
-    .skill-container {
+    #skills {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         width: 100%;
@@ -440,12 +440,12 @@
 
     }
 
-    .skills_right {
+    #skills_right {
         width: 100%;
         /* border: 1px solid */
     }
 
-    .fontSkill_img {
+    #fontSkill_img {
         width: 50%;
         height: 80px;
 
@@ -460,7 +460,7 @@
 
     }
 
-    .left_real {
+    #left_real {
         height: 100%;
         padding: 10px 30px;
         text-align: center;
@@ -496,12 +496,12 @@
 
     }
 
-    .skills_right {
+    #skills_right {
         width: 100%;
         padding: 10px;
     }
 
-    .right_real {
+    #right_real {
         height: max-content;
         margin: auto;
         padding: 10px 20px;
@@ -521,7 +521,7 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .backEnd_img {
+    #backEnd_img {
         width: 100px;
         height: 70px;
         margin: auto;
@@ -554,7 +554,7 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .project_card {
+    .project-card {
         padding: 3px;
     }
 
@@ -618,7 +618,7 @@
 
     }
 
-    .intro_pic {
+    .home-img {
         margin: auto;
         width: 100%;
         padding: 20px 0px;
@@ -641,7 +641,7 @@
 
     /* about  */
 
-    .about_main {
+    #about {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -683,18 +683,18 @@
 
 
 
-    .skill-container-inner {
+    #skill-container-inner {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .skills_left {
+    #skills_left {
         width: 100%;
         padding: 10px;
 
     }
 
-    .left_real {
+    #left_real {
         height: 100%;
         padding: 10px 30px;
         text-align: center;
@@ -709,7 +709,7 @@
 
     }
 
-    .fontSkill_img {
+    #fontSkill_img {
         width: 200px;
         height: 100px;
         display: block;
@@ -735,12 +735,12 @@
         margin: 3% auto;
     }
 
-    .skills_right {
+    #skills_right {
         width: 100%;
         padding: 10px;
     }
 
-    .right_real {
+    #right_real {
         height: max-content;
         padding: 40px 10px;
 
@@ -748,7 +748,7 @@
     }
 
 
-    .backEnd_img {
+    #backEnd_img {
         width: 80%;
         height: 100px;
         display: block;
@@ -779,11 +779,11 @@
         text-align: center
     }
 
-    .tool_skill_img {
+    #tool_skill_img {
         width: 100px;
     }
 
-    .tool_skill_img2 {
+    #tool_skill_img2 {
         width: 120px
     }
 
@@ -800,7 +800,7 @@
 
     }
 
-    .project_card {
+    .project-card {
         padding: 5px;
     }
 

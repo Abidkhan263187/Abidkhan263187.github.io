@@ -8,11 +8,12 @@ import { ProjectCard } from './ProjectCard'
 
 export const Project = () => {
   return (
-    <Box className='project-container' id='Projects' >
+    <Box id="projects" >
 
       <Text data-aos="fade-right" data-aos-duration="1000"
         fontSize={["3xl", "4xl", "4xl", "4xl"]} mb={"30px"}
         color={"#03c8d7"} fontWeight={"700"}
+        className='project-title'
         textAlign={"center"} border={"1px solid"} w={'max-content'} margin={"40px auto"} padding={"0px 40px"}>Projects</Text>
 
       <Box className='project_main'>

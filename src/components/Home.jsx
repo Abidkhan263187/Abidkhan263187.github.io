@@ -17,7 +17,7 @@ import { Stats } from './Stats'
 
 export const Home = () => {
     return (
-        <Box id="Home">
+        <Box id="home" className='nav-link.home'>
            
             <Intro/>
            
@@ -29,7 +29,7 @@ export const Home = () => {
          
            <Stats/> 
        
-           { /*  <Contacts /> */}
+          <Contacts /> 
         </Box>
     )
 }

@@ -5,10 +5,10 @@ import React, { useEffect } from 'react';
 const GitHubCalendarComponent = () => {
 
   return (
-    <Box padding={"2%"} >
+    <Box padding={"2%"} className="react-activity-calendar" >
  <Box className="calendar" data-aos="zoom-in-up" data-aos-duration="1000">
       {/* Loading stuff */}
-      <img src="https://ghchart.rshah.org/abidkhan263187" alt="2016rshah's Github chart" />
+      <img  src="https://ghchart.rshah.org/abidkhan263187" alt="2016rshah's Github chart" />
     </Box>
     </Box>
    

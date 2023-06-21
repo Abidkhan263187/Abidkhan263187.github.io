@@ -8,14 +8,7 @@ export const Nav = () => {
 
   const buttonProps = getButtonProps();
   const disclosureProps = getDisclosureProps();
-  const links = [
-    "Home",
-    "About",
-    "Skills",
-    "Projects",
-    "Statistics",
-    "Contacts",
-  ];
+ 
  const onClickhandler = () => {
     return window.open(
       "https://drive.google.com/file/d/1TdpuWrgC7Yp_Wj06uhY7SqM5324FH2xt/view?usp=sharing",
@@ -23,73 +16,67 @@ export const Nav = () => {
     );
   };
   return (
-    <Container
-    h="80px"
-    marginBottom="50px"
-    position="sticky"
-    top="0"
-    zIndex="100"
-    padding="20px"
-    maxW="100%"
-    display="flex"
-    justifyContent="space-between"
-    bg="#20232f"
-    color="white"
-    shadow="base"
+    <Container id="nav-menu" h="80px" marginBottom="50px" position="sticky" top="0" zIndex="100" padding="20px"
+    maxW="100%"display="flex"justifyContent="space-between"bg="#20232f"color="white"shadow="base"
     >
-      <Box
-        as={ScrollLink}
-        to="Home"
-        spy={true}
-        smooth={true}
-        offset={-80}
-        duration={400}
-      >
+      <Box as={ScrollLink} spy={true} smooth={true} offset={-80} duration={400} >
         <Heading marginTop={0} fontFamily="cursive" size="lg" cursor="pointer" >
           Abid Khan
         </Heading>
       </Box>
       <Spacer />
-      <Box
-        display={["none", "none", "flex", "flex", "flex"]}
-        w="50%"
-        justifyContent="space-evenly"
+      <Box display={["none", "none", "flex", "flex", "flex"]} w="50%" justifyContent="space-evenly"
       >
-        {links.map((navlink, i) => {
-          return (
-            <Link
-              as={ScrollLink}
-              key={i}
-              to={navlink}
-              spy={true}
-              smooth={true}
-              offset={-80}
-              duration={400}
-              p="5px 10px"
-              m="auto"
-              textAlign={"center"}
+    
+            <Link  className="nav-link home"  as={ScrollLink} to={"home"} spy={true}smooth={true}offset={-80}duration={400}p="5px 10px"m="auto"textAlign={"center"}
               cursor="pointer"
               w="100px"
               _hover={{ bg: "gray.900", color:"#03c8d7", borderRadius: "10px" }}
             >
-              {navlink}
+             Home
             </Link>
-          );
-        })}
+            <Link  className="nav-link about"  as={ScrollLink} to={"about"}spy={true}smooth={true}offset={-80}duration={400}p="5px 10px"m="auto"textAlign={"center"}
+              cursor="pointer"
+              w="100px"
+              _hover={{ bg: "gray.900", color:"#03c8d7", borderRadius: "10px" }}
+            >
+             About
+            </Link>
+            <Link    className="nav-link skills" as={ScrollLink} to={"skills"}spy={true}smooth={true}offset={-80}duration={400}p="5px 10px"m="auto"textAlign={"center"}
+              cursor="pointer"
+              w="100px"
+              _hover={{ bg: "gray.900", color:"#03c8d7", borderRadius: "10px" }}
+            >
+             Skills
+            </Link>
+            <Link    className="nav-link projects" as={ScrollLink} to={"projects"}spy={true}smooth={true}offset={-80}duration={400}p="5px 10px"m="auto"textAlign={"center"}
+              cursor="pointer"
+              w="100px"
+              _hover={{ bg: "gray.900", color:"#03c8d7", borderRadius: "10px" }}
+            >
+             Projects
+            </Link>
+            <Link  className="statistics"  as={ScrollLink} to={"statistics"}spy={true}smooth={true}offset={-80}duration={400}p="5px 10px"m="auto"textAlign={"center"}
+              cursor="pointer"
+              w="100px"
+              _hover={{ bg: "gray.900", color:"#03c8d7", borderRadius: "10px" }}
+            >
+             Statistics
+            </Link>
+            <Link   className="nav-link contact" as={ScrollLink} to={"contact"} spy={true}smooth={true}offset={-80}duration={400}p="5px 10px"m="auto"textAlign={"center"}
+              cursor="pointer"
+              w="100px"
+              _hover={{ bg: "gray.900", color:"#03c8d7", borderRadius: "10px" }}
+            >
+             Contacts
+            </Link>
+       
       </Box>
-      <Link>
+      <Link  className="nav-link resume">
         <Button
-          display={["none", "none", "flex", "flex", "flex"]}
-          borderRadius=".8rem"
-          size={["sm", "md"]}
-          margin="auto"
-          as={Link}
-          target="_blank"
-          bg="brand_secondary"
-          color="brand"
-          _hover={{bg: "gray.900", color:"#03c8d7" }}
-          href="/Abid_Resume.pdf"
-          download={true}
+        id="resume-link-1"
+          display={["flex", "flex", "flex", "flex", "flex"]} borderRadius=".8rem" size={["sm", "md"]} margin="auto" as={Link}
+          target="_blank" bg="brand_secondary" color="brand" _hover={{bg: "gray.900", color:"#03c8d7" }} href="/Abid_Resume.pdf" download={true}
           onClick={onClickhandler}
         >
           <DownloadIcon marginRight="5px" />
@@ -106,7 +93,7 @@ export const Nav = () => {
         >
           <HamburgerIcon />
         </IconButton>
-        <VStack
+        {/* <VStack
           marginTop="40px"
           {...disclosureProps}
           bg="brand_secondary"
@@ -114,28 +101,117 @@ export const Nav = () => {
           borderRadius="5px"
           display={["flex", "flex", "none", "none", "none"]}
         >
-          {links.map((navlink, i) => {
-            return (
+         
               <Link
+               className="nav-link home"
                 as={ScrollLink}
-                key={i}
+              
                 {...buttonProps}
                 width="100%"
                 color="brand"
                 borderRadius="5px"
-                to={navlink}
+                to={"home"}
                 spy={true}
                 smooth={true}
                 offset={-80}
                 duration={400}
                 cursor="pointer"
               >
-                {navlink}
+                Home
                 <Divider />
               </Link>
-            );
-          })}
-          <Button
+              
+              <Link
+                as={ScrollLink}
+                className="nav-link about"
+                {...buttonProps}
+                width="100%"
+                color="brand"
+                borderRadius="5px"
+                to={"about"}
+                spy={true}
+                smooth={true}
+                offset={-80}
+                duration={400}
+                cursor="pointer"
+              >
+                About
+                <Divider />
+              </Link>
+              
+              <Link
+                as={ScrollLink}
+                className="nav-link skills"
+                {...buttonProps}
+                width="100%"
+                color="brand"
+                borderRadius="5px"
+                to={"skills"}
+                spy={true}
+                smooth={true}
+                offset={-80}
+                duration={400}
+                cursor="pointer"
+              >
+                Skills
+                <Divider />
+              </Link>
+              
+              <Link
+                as={ScrollLink}
+                className="nav-link projects"
+                {...buttonProps}
+                width="100%"
+                color="brand"
+                borderRadius="5px"
+                to={"projects"}
+                spy={true}
+                smooth={true}
+                offset={-80}
+                duration={400}
+                cursor="pointer"
+              >
+                Projects
+                <Divider />
+              </Link>
+              
+              <Link
+                as={ScrollLink}
+                className="statistics" 
+                {...buttonProps}
+                width="100%"
+                color="brand"
+                borderRadius="5px"
+                to={"statistics"}
+                spy={true}
+                smooth={true}
+                offset={-80}
+                duration={400}
+                cursor="pointer"
+              >
+                Statistics
+                <Divider />
+              </Link>
+              
+              <Link
+                as={ScrollLink}
+              className="nav-link contact"
+                {...buttonProps}
+                width="100%"
+                color="brand"
+                borderRadius="5px"
+                to={"contact"}
+                spy={true}
+                smooth={true}
+                offset={-80}
+                duration={400}
+                cursor="pointer"
+              >
+                Contact
+                <Divider />
+              </Link>
+         
+          <Button  className="nav-link resume"
             margin="auto"
             as={Link}
             target="_blank"
@@ -146,11 +222,12 @@ export const Nav = () => {
             href="/Abid_Resume.pdf"
             download={true}
             onClick={onClickhandler}
+            id="resume-button-1"
           >
             <DownloadIcon marginRight="5px" />
             Resume
           </Button>
-        </VStack>
+        </VStack> */}
       </Box>
     </Container>
   );
