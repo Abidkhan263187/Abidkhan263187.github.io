@@ -30,7 +30,7 @@ export const Skills = () => {
 
         <Box id='skills_left'  className="skills-card-name"  >
           {skillshow ? (<Box className='left_dup' data-aos="fade-left" data-aos-duration="1000">
-            <img className="skills-card-img" src="https://cdn1.vectorstock.com/i/1000x1000/52/60/programming-website-frontend-developepr-working-vector-24575260.jpg" alt="" />
+            <img className="skills-card-img" src="https://phpdots.com/wp-content/uploads/2021/12/api-backend-banner.svg" alt="" />
           </Box>) : (<Box id='left_real'  >
 
             <Text className='skillNameTitle' data-aos="fade-right" data-aos-duration="1000" margin={"auto"} mb={"20px"} border={"1px solid"}>Front End </Text>
@@ -62,7 +62,7 @@ export const Skills = () => {
              
             </Box>
           </Box>) : (<Box className='right_dup' data-aos="fade-down">
-            <img  className='skills-card-img' src="https://img.freepik.com/free-vector/back-end-typographic-header-software-development-process-website-interface-design-improvement-programming-coding-it-profession-isolated-flat-vector-illustration_613284-210.jpg?w=2000" alt="front end" />
+            <img  className='skills-card-img' src="https://cdn1.vectorstock.com/i/1000x1000/52/60/programming-website-frontend-developepr-working-vector-24575260.jpg" alt="front end" />
           </Box>)}
 
         </Box>

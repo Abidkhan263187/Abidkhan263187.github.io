@@ -14,7 +14,7 @@ export const AboutMe = () => {
         <img  src='https://www.itprotoday.com/sites/itprotoday.com/files/styles/article_featured_retina/public/programming%20evolution.jpg?itok=WTj9-yNz' />
       </Box> 
       <Box className='about_right'   >
-        <Box data-aos="fade-down" data-aos-duration="1200"  id="about-about-section"> <Text  fontSize={["25px", "25px", "40px", "3xl"]} fontWeight={"700"} >About me</Text> </Box>
+        <Box data-aos="fade-down" data-aos-duration="1200" > <Text  fontSize={["25px", "25px", "40px", "3xl"]} fontWeight={"700"} >About me</Text> </Box>
         <Box data-aos="fade-up" data-aos-duration="1300">  <Text fontSize={["20px", "20px", "30px", "2xl"]} fontWeight={"700"}> <span style={{ color: "#03c8d7" }}> Full Stack </span>Web Developer </Text></Box>
         <Box className='about_me' data-aos="fade-down" data-aos-duration="1350"> <Text m={"20px 0px"} id="user-detail-intro">I am a passionate web developer driven by a relentless
           pursuit of excellence. With a meticulous attention to detail and

@@ -12,7 +12,7 @@ export const Intro = () => {
 
 
     return (
-        <Box className='intro_box' id="home" >
+        <Box className='intro_box'  >
             <Box className='intro_left' data-aos="fade-up" data-aos-duration="1000">
                 <Box  data-aos="fade-right" data-aos-duration="1000"> <Text fontSize={["20px", "20px", "30px", "2xl"]} fontWeight={"700"}> Hello It's Me</Text></Box>
                 <Box data-aos="fade-left" data-aos-duration="1000">   <Text fontSize={["25px", "10px", "40px", "4xl"]} fontWeight={"700"} id="user-detail-name">Abid Khan</Text></Box>

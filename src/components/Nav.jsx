@@ -19,7 +19,7 @@ export const Nav = () => {
     <Container id="nav-menu" h="80px" marginBottom="50px" position="sticky" top="0" zIndex="100" padding="20px"
     maxW="100%"display="flex"justifyContent="space-between"bg="#20232f"color="white"shadow="base"
     >
-      <Box as={ScrollLink} spy={true} smooth={true} offset={-80} duration={400} >
+      <Box  >
         <Heading marginTop={0} fontFamily="cursive" size="lg" cursor="pointer" >
           Abid Khan
         </Heading>
@@ -74,8 +74,8 @@ export const Nav = () => {
       </Box>
       <Link  className="nav-link resume">
         <Button
-        id="resume-link-1"
-          display={["flex", "flex", "flex", "flex", "flex"]} borderRadius=".8rem" size={["sm", "md"]} margin="auto" as={Link}
+        id="resume-button-1"
+          display={["none", "none", "flex", "flex", "flex"]} borderRadius=".8rem" size={["sm", "md"]} margin="auto" as={Link}
           target="_blank" bg="brand_secondary" color="brand" _hover={{bg: "gray.900", color:"#03c8d7" }} href="/Abid_Resume.pdf" download={true}
           onClick={onClickhandler}
         >
@@ -93,7 +93,7 @@ export const Nav = () => {
         >
           <HamburgerIcon />
         </IconButton>
-        {/* <VStack
+        <VStack
           marginTop="40px"
           {...disclosureProps}
           bg="brand_secondary"
@@ -227,7 +227,7 @@ export const Nav = () => {
             <DownloadIcon marginRight="5px" />
             Resume
           </Button>
-        </VStack> */}
+        </VStack>
       </Box>
     </Container>
   );
