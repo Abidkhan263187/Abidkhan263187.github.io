@@ -39,6 +39,7 @@ export const Skills = () => {
               <Box >   <img className='fontSkill_img' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" />  <Text className='skillName' >javascript</Text></Box>
               <Box >  <img className='fontSkill_img' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" /> <Text className='skillName' >React</Text></Box>
               <Box >  <img className='fontSkill_img' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" />  <Text className='skillName'>Redux</Text></Box>
+              <Box >  <img className='fontSkill_img' src="https://avatars.githubusercontent.com/u/54212428?s=280&v=4" alt="chakra ui" />  <Text className='skillName'>Chakra UI</Text></Box>
             </Box>
           </Box>)}
 
@@ -56,7 +57,8 @@ export const Skills = () => {
               <Box>  <img className='backEnd_img' src="https://www.techwell.com/sites/default/files/stories/images/cropped_teasers/Beth%20Romanik/2019/node-js-tutorial.png" alt="nodejs" />  <Text className='skillName'> Node.js </Text></Box>
               <Box><img className='backEnd_img' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR81s2BetKvsvix5szaKt2gQyX12huNnD7TdA&usqp=CAU" alt="express" /> <Text className='skillName'> Express.js </Text></Box>
               <Box>  <img className='backEnd_img' src="https://w7.pngwing.com/pngs/956/695/png-transparent-mongodb-original-wordmark-logo-icon-thumbnail.png" alt="mongodb" /> <Text className='skillName'> MongoDB </Text></Box>
-
+             < Box>  <img className='backEnd_img' src="https://ih1.redbubble.net/image.3481290663.8913/st,small,507x507-pad,600x600,f8f8f8.jpg" alt="nodejs" />  <Text className='skillName'> mongoose </Text></Box>
+             
             </Box>
           </Box>) : (<Box className='right_dup' data-aos="fade-down">
             <img src="https://cdn.dribbble.com/users/1732368/screenshots/6553872/web_developer.gif" alt="front end" />
@@ -64,7 +66,7 @@ export const Skills = () => {
 
         </Box>
       </Box>
-      <Divider/>
+    
       <Box id='OtherSkills_container' mt={"10px"}>
         <Text data-aos="zoom-out-right" className='tool' data-aos-duration="1000" textAlign={"center"} fontSize={"4xl"} m={"auto"} border={"1px solid"} w={"max-content"} color={"#03c8d7"} fontWeight={"700"}>Tools</Text>
         <Box className='OtherSkills-inner' >

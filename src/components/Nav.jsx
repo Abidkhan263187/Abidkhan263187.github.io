@@ -24,19 +24,18 @@ export const Nav = () => {
   };
   return (
     <Container
-      h="80px"
-      marginBottom="50px"
-      position="sticky"
-       top="0"
-      z-index=" 100"
-      padding="20px"
-      maxW="100%"
-      display="flex"
-      justifyContent="space-between"
-      bg="#20232f;"
-    //   borderRadius="20px"
-      color="white"
-      shadow="base"
+    h="80px"
+    marginBottom="50px"
+    position="sticky"
+    top="0"
+    zIndex="100"
+    padding="20px"
+    maxW="100%"
+    display="flex"
+    justifyContent="space-between"
+    bg="#20232f"
+    color="white"
+    shadow="base"
     >
       <Box
         as={ScrollLink}

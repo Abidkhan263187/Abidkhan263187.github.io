@@ -20,13 +20,13 @@ export const Home = () => {
         <Box id="Home">
            
             <Intro/>
-            <Divider/>
+           
           <AboutMe />
-          <Divider/>
+         
           <Skills />
-          <Divider/>
+         
           <Project /> 
-          <Divider/>
+         
            <Stats/> 
        
            { /*  <Contacts /> */}

@@ -1,10 +1,11 @@
 @import "~github-calendar/dist/github-calendar-responsive.css";
 
-*{
+* {
     margin: 0%;
     padding: 0px;
     box-sizing: border-box;
 }
+
 /* intro part start  */
 .intro_box {
     display: flex;
@@ -12,7 +13,7 @@
 }
 
 .intro_left {
-   
+
     padding: 60px 100px;
     width: 50%;
     /* border: 1px solid */
@@ -21,12 +22,36 @@
 .intro_pic {
     margin: auto;
     width: 90%;
-    padding: 10px 30px
+    padding: 10px 50px;
+    animation: floatImage 4s ease-in-out infinite;
 }
 
+@keyframes floatImage {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.soco_icon {
+    font-size: larger;
+    transform: scale(1);
+    transition: .5s ease-in-out;
+}
+
+.soco_icon :hover {
+    transform: scale(1.2);
+}
 
 .intro_right {
-   
+
     padding: 20px 0px;
     width: 50%
 }
@@ -42,18 +67,18 @@
     flex-direction: row;
     justify-content: space-between;
     /* border: 2px solid; */
-   width: 95%;
+    width: 95%;
     margin: 100px auto;
 }
 
 .about_left {
     width: 50%;
-   
+
     padding: 60px 100px
 }
 
 .about_right {
-   
+
     width: 55%;
     padding: 50px 40px
 }
@@ -73,11 +98,13 @@
     height: max-content;
     /* border: 1px solid ; */
 }
+
 .skill-container {
     /* border:1px solid; */
     width: 95%;
     margin: auto;
 }
+
 .skills_left {
     width: 50%;
     /* border: 1px solid */
@@ -85,7 +112,7 @@
 
 .left_dup {
     height: 400px;
-   
+
     padding: 40px
 }
 
@@ -96,7 +123,7 @@
 }
 
 .left_real {
-    height: 400px;
+    height: 500px;
     padding: 10px 30px;
     text-align: center;
     /* border: 1px solid */
@@ -107,10 +134,18 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 10px 20px;
-  
+
 }
-#frontend_skills div{
-    border:5px solid #03c8d7;
+
+#frontend_skills div {
+    border: 5px solid #03c8d7;
+    border-radius: 10px;
+    transition: border .2s ease-in-out  border-width .2s ease-in-out;
+}
+
+#frontend_skills div:hover {
+    border-width: 0;
+    transition: border .2s ease-in-out;
     border-radius: 10px;
 }
 
@@ -118,7 +153,7 @@
     width: 35%;
     display: block;
     margin: auto;
-  
+
 
 }
 
@@ -128,7 +163,7 @@
 }
 
 .right_real {
-    height: 400px;
+    height: 500px;
     padding: 10px 30px;
     text-align: center;
     /* border: 1px solid */
@@ -140,10 +175,19 @@
     gap: 20px;
     padding: 10px 20px;
 }
-.back_end_skills div{
-    border:5px solid #03c8d7;
+
+.back_end_skills div {
+    border: 5px solid #03c8d7;
     border-radius: 10px;
-   
+    transition: border .2s ease-in-out  border-width .2s ease-in-out;
+
+}
+
+.back_end_skills div:hover {
+    border-width: 0;
+    /* border: 5px solid transparent; */
+    transition: border .2s ease-in-out;
+
 }
 
 .backEnd_img {
@@ -153,8 +197,8 @@
 }
 
 .right_dup {
-    height: 400px;
-   
+    height: 00px;
+
     padding: 40px
 }
 
@@ -172,10 +216,19 @@
     padding: 40px 80px;
     text-align: center
 }
-.OtherSkills-inner div{
-    border:5px solid #03c8d7;
+
+.OtherSkills-inner div {
+    border: 5px solid #03c8d7;
     border-radius: 10px;
-}
+    transition: border .2s ease-in-out  border-width .2s ease-in-out;
+  }
+  
+  .OtherSkills-inner div:hover {
+    border-width: 0;
+    transition: border .2s ease-in-out;
+    border-radius: 10px;
+  }
+  
 
 .tool_skill_img {
     width: 20%;
@@ -196,7 +249,8 @@
     font-size: large;
     margin-top: 10px;
 }
-.tool{
+
+.tool {
     padding: 0px 60px;
 }
 
@@ -215,11 +269,26 @@
 .project-container {
     margin: 40px 0px;
 }
-.project_card{
+
+.project_card {
     padding: 7px;
 }
+#card_img {
+    transition: transform 0.1s ease-in-out;
+  }
   
+  #card_img:hover {
+    transform: scale(1.4);
+  }
 
+
+  #card_soco {
+    transform: scale(.98);
+  }
+  #card_soco:hover{
+    transform: scale(1.1);
+    background-color: #03c8d7;
+  }
 .project_main {
     margin: auto;
     width: max-content;
@@ -238,7 +307,8 @@
     margin: auto;
 
 }
-#Statistics{
+
+#Statistics {
     margin-top: 100px;
 }
 
@@ -252,7 +322,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     /* background-color: gray; */
-   
+
     padding: 20px 60px;
     width: 80%;
     margin: 50px auto;
@@ -291,7 +361,7 @@
     }
 
     .intro_left div {
-       
+
         width: 100%;
         margin: auto;
 
@@ -304,7 +374,7 @@
     }
 
     .intro_right {
-       
+
         padding: 10px 10px;
         width: 100%;
         margin: 40px 0px
@@ -330,12 +400,12 @@
 
     .about_left>img {
         width: 400px;
-     
-       
+
+
     }
 
     .about_right div {
-       
+
         width: 100%;
         margin: auto;
 
@@ -364,11 +434,12 @@
         width: 100%;
     }
 
-    .tool{
-        padding:0px 20px;
+    .tool {
+        padding: 0px 20px;
         font-size: medium;
-        
+
     }
+
     .skills_right {
         width: 100%;
         /* border: 1px solid */
@@ -377,7 +448,7 @@
     .fontSkill_img {
         width: 50%;
         height: 80px;
-      
+
     }
 
     #frontend_skills {
@@ -393,7 +464,7 @@
         height: 100%;
         padding: 10px 30px;
         text-align: center;
-       
+
         color: #03c8d7;
     }
 
@@ -401,28 +472,28 @@
         width: 100%;
         padding: 20px;
         height: 300px;
-       
+
     }
 
     .left_dup>img {
         width: 100%;
-       
+
         margin: 3% auto;
-       
+
     }
 
     .right_dup {
         width: 100%;
         padding: 20px;
         height: 300px;
-       
+
     }
 
     .right_dup>img {
         width: 100%;
-       
+
         margin: 3% auto;
-       
+
     }
 
     .skills_right {
@@ -432,18 +503,20 @@
 
     .right_real {
         height: max-content;
-         margin: auto;
+        margin: auto;
         padding: 10px 20px;
         text-align: center;
         color: #03c8d7;
-       
+
     }
-    .back_end_skills div{
-        border:3px solid #03c8d7;
+
+    .back_end_skills div {
+        border: 3px solid #03c8d7;
         width: 100px;
         border-radius: 10px;
-       
+
     }
+
     .back_end_skills {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -464,8 +537,9 @@
         padding: 40px 40px;
         text-align: center
     }
-    .OtherSkills-inner div{
-        border:3px solid #03c8d7;
+
+    .OtherSkills-inner div {
+        border: 3px solid #03c8d7;
     }
 
     #OtherSkills_container {
@@ -475,55 +549,58 @@
     }
 
     /* project  */
- 
+
     .project_main {
         grid-template-columns: repeat(1, 1fr);
     }
-    .project_card{
+
+    .project_card {
         padding: 3px;
     }
-    
+
     /* stat start  */
     .calendar img {
         width: 100%;
         margin: auto;
-    
+
     }
+
     .calendar {
         padding: 20px;
     }
-    
-.stat-container {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    padding: 20px 10px;
-    width: 80%;
-    margin: 10px auto;
-    gap: 40px;
-}
 
-.stat-container img {
-    width: 100%;
-    border-radius: 20px;
-    background-color: transparent;
-}
+    .stat-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 20px 10px;
+        width: 80%;
+        margin: 10px auto;
+        gap: 40px;
+    }
 
-.stat-container div {
-    width: 100%;
-    border: 1px solid #03c8d7;
-}
+    .stat-container img {
+        width: 100%;
+        border-radius: 20px;
+        background-color: transparent;
+    }
 
-.statthree {
-    margin: auto;
-    background-color: transparent;
-    width: 100%;
-}
-    
+    .stat-container div {
+        width: 100%;
+        border: 1px solid #03c8d7;
+    }
+
+    .statthree {
+        margin: auto;
+        background-color: transparent;
+        width: 100%;
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+
     /* styles for screens between 769px and 1024px */
-     .intro_box {
+    .intro_box {
         display: flex;
         flex-wrap: wrap;
         margin: auto;
@@ -535,7 +612,7 @@
     }
 
     .intro_left div {
-       
+
         width: 100%;
         margin: auto;
 
@@ -548,15 +625,17 @@
     }
 
     .intro_right {
-       
+
         padding: 10px 10px;
         width: 100%;
         margin: 40px 0px
     }
-    .into_myself{
+
+    .into_myself {
         font-size: xx-large;
     }
-    .soco_icon{
+
+    .soco_icon {
         font-size: x-large;
     }
 
@@ -580,11 +659,11 @@
     .about_left>img {
         width: 100%;
         margin: auto;
-       
+
     }
 
     .about_right div {
-       
+
         width: 100%;
         margin: auto;
 
@@ -594,7 +673,8 @@
         width: 100%;
         padding: 40px 10px
     }
-    .about_me{
+
+    .about_me {
         font-size: xx-large;
     }
 
@@ -607,16 +687,18 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+
     .skills_left {
         width: 100%;
         padding: 10px;
 
     }
+
     .left_real {
         height: 100%;
         padding: 10px 30px;
         text-align: center;
-       
+
         color: #03c8d7;
     }
 
@@ -624,32 +706,35 @@
         width: 100%;
         padding: 20px;
         height: 500px;
-       
+
     }
+
     .fontSkill_img {
         width: 200px;
         height: 100px;
         display: block;
         margin: auto
     }
+
     .left_dup>img {
         width: 80%;
         height: 90%;
         margin: 3% auto;
     }
-  
+
     .right_dup {
         width: 100%;
         padding: 20px;
         height: 500px;
-       
+
     }
 
     .right_dup>img {
         width: 70%;
-       
+
         margin: 3% auto;
     }
+
     .skills_right {
         width: 100%;
         padding: 10px;
@@ -658,7 +743,7 @@
     .right_real {
         height: max-content;
         padding: 40px 10px;
-       
+
         color: #03c8d7;
     }
 
@@ -668,20 +753,22 @@
         height: 100px;
         display: block;
         margin: auto;
-       
+
     }
-    .back_end_skills div{
+
+    .back_end_skills div {
         width: 200px;
     }
+
     .back_end_skills {
         grid-template-columns: repeat(3, 1fr);
     }
 
-   
+
     /* #java{
         margin-left: 30px;
     } */
-   
+
     .OtherSkills-inner {
         /* border: 2px solid; */
         display: grid;
@@ -692,64 +779,69 @@
         text-align: center
     }
 
-    .tool_skill_img{
+    .tool_skill_img {
         width: 100px;
     }
-    .tool_skill_img2{
-          width:120px
+
+    .tool_skill_img2 {
+        width: 120px
     }
+
     #OtherSkills_container {
         margin-top: 50px;
         padding: 10px;
         color: #03c8d7;
     }
-    
-     /* project  */
+
+    /* project  */
     .project_main {
         grid-template-columns: repeat(2, 1fr);
-        gap:30px;
-       
+        gap: 30px;
+
     }
-    .project_card{
+
+    .project_card {
         padding: 5px;
     }
-      
+
 
     /* stats  */
-.stat-container {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    padding: 20px 10px;
-    width: 80%;
-    margin: 30px auto;
-    gap: 40px;
-}
-.calendar img {
-    width: 100%;
-    margin: auto;
+    .stat-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 20px 10px;
+        width: 80%;
+        margin: 30px auto;
+        gap: 40px;
+    }
 
-}
-.stat-container img {
-    width: 80%;
-    border-radius: 20px;
-    margin: auto;
-   
-    background-color: transparent;
-}
+    .calendar img {
+        width: 100%;
+        margin: auto;
 
-.stat-container div {
-    width: 80%;
-    margin: auto;
-    border: 1px solid #03c8d7;
-}
+    }
 
-.statthree {
-    margin: auto;
-    background-color: transparent;
-    width: 80%;
-}
-    
-   
+    .stat-container img {
+        width: 80%;
+        border-radius: 20px;
+        margin: auto;
+
+        background-color: transparent;
+    }
+
+    .stat-container div {
+        width: 80%;
+        margin: auto;
+        border: 1px solid #03c8d7;
+    }
+
+    .statthree {
+        margin: auto;
+        background-color: transparent;
+        width: 80%;
+    }
+
+
 }
 
 @media (min-width: 1025px) {
@@ -759,6 +851,3 @@
 
 
 /* =================== scroll part ====================== */
-
-
-

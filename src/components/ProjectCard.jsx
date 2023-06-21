@@ -8,7 +8,7 @@ export const ProjectCard = ({name,desc,avatar,link,github}) => {
 
         <Flex spacing='4'>
           <Flex flex='1' gap='4' alignItems='center' flexWrap='wrap' >
-            <Box>  <Image
+            <Box>  <Image id='card_img'
               objectFit='cover'
               src={avatar}
               alt='Chakra UI'
@@ -31,8 +31,8 @@ export const ProjectCard = ({name,desc,avatar,link,github}) => {
 
       <CardFooter justify='space-between'  sx={{ '& > button': { minW: '136px', }, }} >
         <Flex justifyContent={"space-between"} padding={"0px 20px"} w={"100%"}>
-          <Button bg="#03c8d7" size={["sm", "sm", "md", "md"]}> <Link href={github}> <i class="fa-brands fa-github fa-2xl"></i></Link></Button>
-          <Button bg="#03c8d7" size={["sm", "sm", "md","md"]}> <Link href={link}><i class="fa-solid fa-eye fa-2xl"></i></Link></Button>
+          <Button id='card_soco' bg="#03c8d7" size={["sm", "sm", "md", "md"]}> <Link href={github}> <i class="fa-brands fa-github fa-2xl"></i></Link></Button>
+          <Button id='card_soco'  bg="#03c8d7" size={["sm", "sm", "md","md"]}> <Link href={link}><i class="fa-solid fa-eye fa-2xl"></i></Link></Button>
         </Flex>
       </CardFooter>
 
