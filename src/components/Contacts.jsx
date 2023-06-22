@@ -8,11 +8,11 @@ export const Contacts = () => {
     <div id="contact" style={styles.container}>
       <h2 style={styles.contactTitle}>Contact Information</h2>
       <div style={styles.contactDetails}>
-        <p style={styles.contactInfo} id="contact-phone" >Phone <span style={{color:"white", fontSize: '18px'}}> : {phoneNumber}</span> </p>
-        <p style={styles.contactInfo} id="contact-email"  >Email  <span style={{color:"white",fontSize: '18px'}}> : {email}</span> </p>
+        <p style={styles.contactInfo} id="contact-phone" >Phone <span style={{color:"white"}}> : {phoneNumber}</span> </p>
+        <p style={styles.contactInfo} id="contact-email"  >Email  <span style={{color:"white"}}> : {email}</span> </p>
       </div>
       <div style={styles.socialMedia}>
-        <p style={styles.socialMediaText}>Social Media:</p>
+        <p style={styles.socialMediaText}>Social Media</p>
         <div style={styles.socialMediaLinks}>
           <a style={styles.socialMediaLink} id="contact-linkedin" href="https://www.linkedin.com/in/abid-khan-325795182/"><i class="fa-brands fa-linkedin  fa-2xl"></i></a>
           <a style={styles.socialMediaLink} id="contact-github" href="https://github.com/Abidkhan263187"><i class="fa-brands fa-github fa-2xl"></i></a>
@@ -33,7 +33,7 @@ const styles = {
   },
   contactTitle: {
     border: '2px solid #03c8d7',
-    fontSize: '24px',
+    fontSize: '20px',
     fontWeight: 'bold',
     padding:"0px 40px",
     fontFamily: 'Arial, sans-serif',
@@ -47,7 +47,7 @@ const styles = {
   },
   contactInfo: {
     fontWeight:"700",
-    fontSize: '22px',
+    fontSize: '15px',
     fontFamily: 'Arial, sans-serif',
     color:'#03c8d7',
     margin: '10px 0',
@@ -67,7 +67,7 @@ const styles = {
     fontWeight:"700",
     fontFamily: 'Arial, sans-serif',
     color: '#03c8d7',
-    padding:"5px 60px",
+    padding:"7px 35px",
     margin: '10px 0',
   },
   socialMediaLinks: {

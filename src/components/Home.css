@@ -339,7 +339,7 @@
 }
 
 .statthree {
-    margin-left: 70%;
+    margin-left: 75%;
     background-color: transparent;
     width: 60%;
 }
@@ -347,7 +347,17 @@
 /* stat part end  */
 
 
+
+/* contact  */
+
+
+
 @media (max-width: 768px) {
+
+/* conatcts  */
+
+
+
     .intro_box {
         display: flex;
         flex-wrap: wrap;

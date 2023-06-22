@@ -9,7 +9,7 @@ export const Nav = () => {
   const buttonProps = getButtonProps();
   const disclosureProps = getDisclosureProps();
  
- const onClickhandler = () => {
+ const handleClick = () => {
     return window.open(
       "https://drive.google.com/file/d/1TdpuWrgC7Yp_Wj06uhY7SqM5324FH2xt/view?usp=sharing",
       "_blank"
@@ -25,7 +25,7 @@ export const Nav = () => {
         </Heading>
       </Box>
       <Spacer />
-      <Box display={["none", "none", "flex", "flex", "flex"]} w="50%" justifyContent="space-evenly"
+      <Box display={["none", "none", "none", "flex", "flex"]} w="50%" justifyContent="space-evenly"
       >
     
             <Link  className="nav-link home"  as={ScrollLink} to={"home"} spy={true}smooth={true}offset={-80}duration={400}p="5px 10px"m="auto"textAlign={"center"}
@@ -75,21 +75,24 @@ export const Nav = () => {
       <Link  className="nav-link resume">
         <Button
         id="resume-button-1"
-          display={["none", "none", "flex", "flex", "flex"]} borderRadius=".8rem" size={["sm", "md"]} margin="auto" as={Link}
-          target="_blank" bg="brand_secondary" color="brand" _hover={{bg: "gray.900", color:"#03c8d7" }} href="/Abid_Resume.pdf" download={true}
-          onClick={onClickhandler}
+          display={["none", "none", "none", "flex", "flex"]} borderRadius=".8rem" size={["sm", "md"]} margin="auto" as={Link} border="1px solid #03c8d7"
+          target="_blank" bg="brand_secondary" color="brand" _hover={{bg: "gray.900", color:"#03c8d7" }} href="./resume\Abid_resume (3).pdf" download={true}
+          onClick={handleClick}
+         
         >
           <DownloadIcon marginRight="5px" />
           Resume
         </Button>
+       
       </Link>
+      {/* <a href="./resume\Abid_resume (3).pdf" download> resume</a> */}
       <Box>
         <IconButton
           float="right"
           variant="outline"
           colorScheme="black"
           {...buttonProps}
-          display={["flex", "flex", "none", "none", "none"]}
+          display={["flex", "flex", "flex", "none", "none"]}
         >
           <HamburgerIcon />
         </IconButton>
@@ -99,7 +102,7 @@ export const Nav = () => {
           bg="brand_secondary"
           padding="5px"
           borderRadius="5px"
-          display={["flex", "flex", "none", "none", "none"]}
+          display={["flex", "flex", "flex", "none", "none"]}
         >
          
               <Link
@@ -221,7 +224,7 @@ export const Nav = () => {
             borderRadius="10px"
             href="/Abid_Resume.pdf"
             download={true}
-            onClick={onClickhandler}
+            onClick={handleClick}
             id="resume-button-1"
           >
             <DownloadIcon marginRight="5px" />
