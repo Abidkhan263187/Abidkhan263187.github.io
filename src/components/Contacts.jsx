@@ -6,10 +6,10 @@ export const Contacts = () => {
 
   return (
     <div id="contact" style={styles.container}>
-      <h2 style={styles.contactTitle}>Contact Information</h2>
+      <h2 style={styles.contactTitle}>Contact Me</h2>
       <div style={styles.contactDetails}>
-        <p style={styles.contactInfo} id="contact-phone" >Phone <span style={{color:"white"}}> : {phoneNumber}</span> </p>
-        <p style={styles.contactInfo} id="contact-email"  >Email  <span style={{color:"white"}}> : {email}</span> </p>
+        <p style={styles.contactInfo} id="contact-phone" ><i class="fa-solid fa-phone-volume fa-2xl"></i> <span style={{color:"white"}}> : {phoneNumber}</span> </p>
+        <p style={styles.contactInfo} id="contact-email"  ><i class="fa-solid fa-envelope fa-2xl"></i>  <span style={{color:"white"}}> : {email}</span> </p>
       </div>
       <div style={styles.socialMedia}>
         <p style={styles.socialMediaText}>Social Media</p>
@@ -18,6 +18,7 @@ export const Contacts = () => {
           <a style={styles.socialMediaLink} id="contact-github" href="https://github.com/Abidkhan263187"><i class="fa-brands fa-github fa-2xl"></i></a>
         </div>
       </div>
+      <div> <p style={{fontWeight:"700"}}>Designed <span style={{color:"#03c8d7"}}>  &</span> develop by <span style={{color:"#03c8d7"}}>  Abid Khan <span style={{color:"green"}}> ©</span>  </span> 2023</p> </div>
     </div>
   );
 };
@@ -35,7 +36,7 @@ const styles = {
     border: '2px solid #03c8d7',
     fontSize: '20px',
     fontWeight: 'bold',
-    padding:"0px 40px",
+    padding:"0px 80px",
     fontFamily: 'Arial, sans-serif',
     color: '#03c8d7',
   },
