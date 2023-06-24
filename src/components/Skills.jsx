@@ -35,11 +35,11 @@ export const Skills = () => {
 
             <Text className='skillNameTitle' data-aos="fade-right" data-aos-duration="1000" margin={"auto"} mb={"20px"} border={"1px solid"}>Front End </Text>
             <Box id='frontend_skills' data-aos="zoom-in-up" data-aos-easing="ease-out-cubic" >
-              <Box >   <img   className="skills-card-img" id='fontSkill_img' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" /> <Text   className="skills-card-name"    id='skillName'  >HTML</Text></Box>
-              <Box >  <img  className="skills-card-img" id='fontSkill_img' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" />  <Text   className="skills-card-name"    id='skillName' >CSS</Text></Box>
-              <Box >   <img  className="skills-card-img" id='fontSkill_img' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" />  <Text   className="skills-card-name"    id='skillName' >javascript</Text></Box>
-              <Box >  <img  className="skills-card-img" id='fontSkill_img' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" /> <Text   className="skills-card-name"    id='skillName' >React</Text></Box>
-              <Box >  <img  className="skills-card-img" id='fontSkill_img' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" />  <Text      id='skillName'>Redux</Text></Box>
+              <Box >   <img   className="skills-card-img" id='fontSkill_img' src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png" alt="html5" /> <Text   className="skills-card-name"    id='skillName'  >HTML</Text></Box>
+              <Box >  <img  className="skills-card-img" id='fontSkill_img' src="https://img.freepik.com/free-icon/css_318-698167.jpg" alt="css3" />  <Text   className="skills-card-name"    id='skillName' >CSS</Text></Box>
+              <Box >   <img  className="skills-card-img" id='fontSkill_img' src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" alt="javascript" />  <Text   className="skills-card-name"    id='skillName' >javascript</Text></Box>
+              <Box >  <img  className="skills-card-img" id='fontSkill_img' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNQ6ZmsiCzSC16bStr1KjZNcIBW5hAMa1ek6xoNeSSw5wQouq_N7dQCxlxI02TIeZk1e0&usqp=CAU" alt="react" /> <Text   className="skills-card-name"    id='skillName' >React</Text></Box>
+              <Box >  <img  className="skills-card-img" id='fontSkill_img' src="https://cdn.worldvectorlogo.com/logos/redux.svg" alt="redux" />  <Text      id='skillName'>Redux</Text></Box>
               <Box >  <img  className="skills-card-img" id='fontSkill_img' src="https://avatars.githubusercontent.com/u/54212428?s=280&v=4" alt="chakra ui" />  <Text    className="skills-card-name"   id='skillName'>Chakra UI</Text></Box>
             </Box>
           </Box>)}
@@ -54,7 +54,7 @@ export const Skills = () => {
             <Text className='skillNameTitle' mb={"20px"} data-aos="fade-right" data-aos-duration="1000" border={"1px solid"}>Back End </Text>
             <Box className='back_end_skills' data-aos="zoom-in-left" data-aos-easing="ease-out-cubic" >
               <Box> <img className='skills-card-img' id='backEnd_img' src="https://openautomationsoftware.com/wp-content/uploads/2016/07/JSON-icon-2.jpg" alt="JSON" /> <Text    className="skills-card-name"   id='skillName'> JSON </Text></Box>
-              <Box id="java"> <img className='skills-card-img' id='backEnd_img' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" /> <Text    className="skills-card-name"   id='skillName'> Java </Text></Box>
+              <Box > <img className='skills-card-img' id='backEnd_img' src="https://cdn-icons-png.flaticon.com/512/1183/1183669.png" alt="java" /> <Text    className="skills-card-name"   id='skillName'> Java </Text></Box>
               <Box>  <img className='skills-card-img' id='backEnd_img' src="https://www.techwell.com/sites/default/files/stories/images/cropped_teasers/Beth%20Romanik/2019/node-js-tutorial.png" alt="nodejs" />  <Text    className="skills-card-name"   id='skillName'> Node.js </Text></Box>
               <Box><img className='skills-card-img' id='backEnd_img' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR81s2BetKvsvix5szaKt2gQyX12huNnD7TdA&usqp=CAU" alt="express" /> <Text    className="skills-card-name"   id='skillName'> Express.js </Text></Box>
               <Box>  <img className='skills-card-img' id='backEnd_img' src="https://w7.pngwing.com/pngs/956/695/png-transparent-mongodb-original-wordmark-logo-icon-thumbnail.png" alt="mongodb" /> <Text    className="skills-card-name"   id='skillName'> MongoDB </Text></Box>

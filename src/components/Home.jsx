@@ -17,7 +17,7 @@ import { Stats } from './Stats'
 
 export const Home = () => {
     return (
-        <Box id="home" className='nav-link.home'>
+        <Box id="home">
            
             <Intro/>
            

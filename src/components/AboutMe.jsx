@@ -8,8 +8,8 @@ export const AboutMe = () => {
     setShowMoreDetails((prevState) => !prevState);
   }
   return (
-    <Box id="about" class="about section" >
-
+    <Box id="about" className="about section" >
+        {/* <Text > About me</Text> */}
       <Box className='about_left' data-aos="zoom-in-down" >
         <img  src='https://www.itprotoday.com/sites/itprotoday.com/files/styles/article_featured_retina/public/programming%20evolution.jpg?itok=WTj9-yNz' />
       </Box> 

@@ -233,7 +233,7 @@ export const Nav = () => {
         </VStack>
       </Box>
     </Container>
-  );
-};
+  )
+}
 
 
