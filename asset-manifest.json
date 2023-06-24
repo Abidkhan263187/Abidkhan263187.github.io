@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.3782af4c.css",
-    "main.js": "/static/js/main.17f1fcbc.js",
+    "main.css": "/static/css/main.e375ec6e.css",
+    "main.js": "/static/js/main.bfd3b0a7.js",
     "static/media/flipkart.png": "/static/media/flipkart.5289462bafafef7e566d.png",
     "static/media/funiture_project.png": "/static/media/funiture_project.cb0de6eaa13896b69ce1.png",
     "static/media/boat.png": "/static/media/boat.60c6baee1928c62a582e.png",
     "static/media/youtube.png": "/static/media/youtube.d7e4e0b831314e9375f4.png",
     "index.html": "/index.html",
-    "main.3782af4c.css.map": "/static/css/main.3782af4c.css.map",
-    "main.17f1fcbc.js.map": "/static/js/main.17f1fcbc.js.map"
+    "main.e375ec6e.css.map": "/static/css/main.e375ec6e.css.map",
+    "main.bfd3b0a7.js.map": "/static/js/main.bfd3b0a7.js.map"
   },
   "entrypoints": [
-    "static/css/main.3782af4c.css",
-    "static/js/main.17f1fcbc.js"
+    "static/css/main.e375ec6e.css",
+    "static/js/main.bfd3b0a7.js"
   ]
 }
