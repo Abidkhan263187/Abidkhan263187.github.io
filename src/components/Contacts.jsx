@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const Contacts = () => {
-  const phoneNumber = '62-8000-7521';
+  const phoneNumber = '+91-62-8000-7521';
   const email = 'abidkhan263187@gmail.com';
 
   return (

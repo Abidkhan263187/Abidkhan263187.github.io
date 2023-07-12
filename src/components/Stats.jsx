@@ -7,7 +7,7 @@ export const Stats = () => {
         <Box id="statistics" >
             <Heading data-aos="fade-down" textAlign={'center'} fontSize={["2xl","3xl","4xl","4xl"]} >My Git  <span  style={{ color: "#03c8d7" }}>Calender</span></Heading>
             <GitHubCalendarComponent />
-            <Heading data-aos="fade-down" data-aos-duration="1000" textAlign={'center'} fontSize={["2xl","3xl","4xl","4xl"]}> My github  <span  style={{ color: "#03c8d7" }}>stats</span></Heading>
+            <Heading textAlign={'center'} fontSize={["2xl","3xl","4xl","4xl"]}> My github  <span  style={{ color: "#03c8d7" }}>stats</span></Heading>
             <Box className='stat-container'>
                 <Box className='statone' data-aos="fade-up" >
                     <img id="github-stats-card"

@@ -33,7 +33,7 @@ export const Skills = () => {
             <img className="skills-card-img" src="https://phpdots.com/wp-content/uploads/2021/12/api-backend-banner.svg" alt="" />
           </Box>) : (<Box id='left_real'  >
 
-            <Text className='skillNameTitle' data-aos="fade-right" data-aos-duration="1000" margin={"auto"} mb={"20px"} border={"1px solid"}>Front End </Text>
+            <Text className='skillNameTitle' data-aos-duration="1000" margin={"auto"} mb={"20px"} border={"1px solid"}>Front End </Text>
             <Box id='frontend_skills' data-aos="zoom-in-up" data-aos-easing="ease-out-cubic" >
               <Box >   <img   className="skills-card-img" id='fontSkill_img' src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png" alt="html5" /> <Text   className="skills-card-name"    id='skillName'  >HTML</Text></Box>
               <Box >  <img  className="skills-card-img" id='fontSkill_img' src="https://img.freepik.com/free-icon/css_318-698167.jpg" alt="css3" />  <Text   className="skills-card-name"    id='skillName' >CSS</Text></Box>
@@ -51,7 +51,7 @@ export const Skills = () => {
         <Box id='skills_right'  className="skills-card-name" >
           {skillshow ? (<Box id='right_real'  >
 
-            <Text className='skillNameTitle' mb={"20px"} data-aos="fade-right" data-aos-duration="1000" border={"1px solid"}>Back End </Text>
+            <Text className='skillNameTitle' mb={"20px"}  border={"1px solid"}>Back End </Text>
             <Box className='back_end_skills' data-aos="zoom-in-left" data-aos-easing="ease-out-cubic" >
               <Box> <img className='skills-card-img' id='backEnd_img' src="https://openautomationsoftware.com/wp-content/uploads/2016/07/JSON-icon-2.jpg" alt="JSON" /> <Text    className="skills-card-name"   id='skillName'> JSON </Text></Box>
               <Box > <img className='skills-card-img' id='backEnd_img' src="https://cdn-icons-png.flaticon.com/512/1183/1183669.png" alt="java" /> <Text    className="skills-card-name"   id='skillName'> Java </Text></Box>
@@ -69,7 +69,7 @@ export const Skills = () => {
       </Box>
     
       <Box id='OtherSkills_container' class="skills-card" mt={"10px"}>
-        <Text data-aos="zoom-out-right" className='tool' data-aos-duration="1000" textAlign={"center"} fontSize={"4xl"} m={"auto"} border={"1px solid"} w={"max-content"} color={"#03c8d7"} fontWeight={"700"}>Tools</Text>
+        <Text  className='tool' data-aos-duration="1000" textAlign={"center"}  m={"auto"} border={"1px solid"} w={"max-content"} color={"#03c8d7"} fontWeight={"700"}>Tools</Text>
         <Box className='OtherSkills-inner' >
 
 

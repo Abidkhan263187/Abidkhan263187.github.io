@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Box, Heading, Link, IconButton, useDisclosure, VStack, Spacer, Button, Divider,} from "@chakra-ui/react";
 import { Link as ScrollLink } from "react-scroll";
 import { DownloadIcon, HamburgerIcon } from "@chakra-ui/icons";
+import './Home.css'
 
 export const Nav = () => {
   const { getDisclosureProps, getButtonProps } = useDisclosure();
@@ -11,12 +12,12 @@ export const Nav = () => {
  
  const handleClick = () => {
     return window.open(
-      "https://drive.google.com/file/d/1TdpuWrgC7Yp_Wj06uhY7SqM5324FH2xt/view?usp=sharing",
+      "https://drive.google.com/file/d/15dmwPerQhTY1irSf03sbJTIP38XtMEIU/view",
       "_blank"
     );
   };
   return (
-    <Container id="nav-menu" h="80px" marginBottom="50px" position="sticky" top="0" zIndex="100" padding="20px"
+    <Container id="nav-menu" h="80px" position="sticky" top="0" zIndex="100" padding="20px"
     maxW="100%"display="flex"justifyContent="space-between"bg="#20232f"color="white"shadow="base"
     >
       <Box  >
@@ -90,6 +91,7 @@ export const Nav = () => {
         <IconButton
           float="right"
           variant="outline"
+          size={['sm','md','md']}
           colorScheme="black"
           {...buttonProps}
           display={["flex", "flex", "flex", "none", "none"]}

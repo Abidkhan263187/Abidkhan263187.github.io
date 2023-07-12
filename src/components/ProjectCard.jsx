@@ -9,7 +9,7 @@ export const ProjectCard = ({name,desc,avatar,link,github,tech }) => {
         <Flex spacing='4'>
           <Flex flex='1' gap='4' alignItems='center' flexWrap='wrap' >
             <Box data-aos="fade-up"
-     data-aos-anchor-placement="bottom-bottom" >  <Image id='card_img' 
+            data-aos-anchor-placement="bottom-bottom" >  <Image id='card_img' 
               objectFit='cover'
               src={avatar}
               alt='Chakra UI'
@@ -21,16 +21,16 @@ export const ProjectCard = ({name,desc,avatar,link,github,tech }) => {
 
       <CardBody>
         <Text mb={"20px"} mt={"10px"}> <Heading as='h3' className="project-title" fontSize={["lg","lg","3xl","2xl"]} 
-        fontWeight='bold'  data-aos="fade-up" data-aos-duration="1000"> 
+        fontWeight='bold' > 
          {name}</Heading> </Text>
-        <Text mt={"10px"} fontSize={["lg","lg","xl","xl"]} class="project-description"  data-aos="fade-down" data-aos-duration="1000">
+        <Text mt={"10px"} fontSize={["lg","lg","xl","xl"]} class="project-description">
          {desc}
         </Text>
-        <Text mt={"10px"} data-aos="fade-up" data-aos-duration="1000" class="project-tech-stack" fontSize={["lg","lg","xl","xl"]}>  <span style={{ color: "#03c8d7", fontWeight: "700" }}>TECH STACK :</span>{tech} </Text>
+        <Text mt={"10px"} class="project-tech-stack" fontSize={["lg","lg","xl","xl"]}>  <span style={{ color: "#03c8d7", fontWeight: "700" }}>TECH STACK :</span>{tech} </Text>
       </CardBody>
 
 
-      <CardFooter justify='space-between'  sx={{ '& > button': { minW: '136px', }, }} data-aos="fade-up"  >
+      <CardFooter justify='space-between'  sx={{ '& > button': { minW: '136px', }, }} >
         <Flex justifyContent={"space-between"} padding={"0px 20px"} w={"100%"}>
           <Button id='card_soco' bg="#03c8d7" size={["sm", "sm", "md", "md"]}>   <Link class="project-github-link" href={github}> <i class="fa-brands fa-github fa-2xl"></i> source code </Link> </Button>
           <Button id='card_soco'  bg="#03c8d7" size={["sm", "sm", "md","md"]}> <Link class="project-deployed-link" href={link}><i class="fa-solid fa-eye fa-2xl"></i> Live </Link></Button>
