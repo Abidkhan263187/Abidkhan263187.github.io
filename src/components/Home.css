@@ -923,7 +923,7 @@
         gap: 40px;
     }
 
-    .calendar img {
+#calendar_img {
         width: 100%;
         margin: auto;
 
