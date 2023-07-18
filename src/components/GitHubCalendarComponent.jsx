@@ -11,7 +11,7 @@ const GitHubCalendarComponent = () => {
     <Box padding={"2%"} className="react-activity-calendar" >
  <Box className="calendar"data-aos="zoom-in-up" data-aos-duration="1000">
       {/* Loading stuff */}
-       <GitHubCalendar id="calendar_img" style={{margin:"auto"}}username="abidkhan263187" /> 
+       <GitHubCalendar id="calendar_img" style={{margin:" 2% auto 0% auto"}}username="abidkhan263187" /> 
     </Box>
     </Box>
    
