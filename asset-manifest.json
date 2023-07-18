@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.db449f96.css",
-    "main.js": "/static/js/main.dbdf0fa8.js",
+    "main.css": "/static/css/main.873908ac.css",
+    "main.js": "/static/js/main.d33f1e4a.js",
     "static/media/flipkart.png": "/static/media/flipkart.5289462bafafef7e566d.png",
     "static/media/funiture_project.png": "/static/media/funiture_project.cb0de6eaa13896b69ce1.png",
     "static/media/blog.png": "/static/media/blog.55a757de4aa67ee26fe1.png",
     "static/media/youtube.png": "/static/media/youtube.d7e4e0b831314e9375f4.png",
     "static/media/abid.jpg": "/static/media/abid.bb6915a7c8bc9beaecba.jpg",
     "index.html": "/index.html",
-    "main.db449f96.css.map": "/static/css/main.db449f96.css.map",
-    "main.dbdf0fa8.js.map": "/static/js/main.dbdf0fa8.js.map"
+    "main.873908ac.css.map": "/static/css/main.873908ac.css.map",
+    "main.d33f1e4a.js.map": "/static/js/main.d33f1e4a.js.map"
   },
   "entrypoints": [
-    "static/css/main.db449f96.css",
-    "static/js/main.dbdf0fa8.js"
+    "static/css/main.873908ac.css",
+    "static/js/main.d33f1e4a.js"
   ]
 }
