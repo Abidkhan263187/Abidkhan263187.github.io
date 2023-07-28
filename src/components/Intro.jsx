@@ -2,12 +2,14 @@ import { Box, Button, Link, Text } from '@chakra-ui/react'
 import React from 'react'
 import { TypedText } from './TypedText';
 import abid from '../components/images/abid.jpg'
-
-const handleclick = () => {
-    return window.open(
-        "https://drive.google.com/file/d/15dmwPerQhTY1irSf03sbJTIP38XtMEIU/view",
-        "_blank"
-    );
+import resume from './resume/Abid-Khan-Resume.pdf'
+const handleclick = (resume) => {
+   const file=resume.split("/").pop();
+   const tag=document.createElement("a");
+   tag.href=resume;
+   tag.setAttribute("download",file);
+   tag.click();
+   tag.remove();
 };
 export const Intro = () => {
 
@@ -30,8 +32,8 @@ export const Intro = () => {
                         </Text></Box>
 
                     <Text data-aos="zoom-out-up" data-aos-duration="1000" mt={"30px"} >
-                        <Button size={["sm", "md", "md", "md"]} id="resume-button-2" onClick={handleclick}
-                        href="./resume\Abid_resume (3).pdf" as={Link}
+                        <Button size={["sm", "md", "md", "md"]} id="resume-button-2" onClick={()=>handleclick(resume)}
+                        href="https://drive.google.com/file/d/15dmwPerQhTY1irSf03sbJTIP38XtMEIU/view?usp=drive_link" as={Link}
                         target="_blank" download={true}
                         color={"white"}
                     

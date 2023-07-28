@@ -6,7 +6,7 @@ import Typed from 'typed.js';
   
     useEffect(() => {
       const typed = new Typed(typedElementRef.current, {
-        strings: ['Frontend Developer', 'Backend Developer', 'Student At Masai'],
+        strings: ['Frontend Developer', 'Full Stack Developer' ,'MERN Stack Developer','A tech Enthusiastic'],
         typeSpeed: 100,
         backSpeed: 100,
         backDelay: 1000,
