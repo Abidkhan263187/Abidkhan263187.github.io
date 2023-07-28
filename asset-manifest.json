@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.873908ac.css",
-    "main.js": "/static/js/main.7cd5dde8.js",
+    "main.js": "/static/js/main.12a9fda4.js",
     "static/media/flipkart.png": "/static/media/flipkart.5289462bafafef7e566d.png",
     "static/media/funiture_project.png": "/static/media/funiture_project.cb0de6eaa13896b69ce1.png",
     "static/media/blog.png": "/static/media/blog.55a757de4aa67ee26fe1.png",
@@ -10,10 +10,10 @@
     "static/media/abid.jpg": "/static/media/abid.bb6915a7c8bc9beaecba.jpg",
     "index.html": "/index.html",
     "main.873908ac.css.map": "/static/css/main.873908ac.css.map",
-    "main.7cd5dde8.js.map": "/static/js/main.7cd5dde8.js.map"
+    "main.12a9fda4.js.map": "/static/js/main.12a9fda4.js.map"
   },
   "entrypoints": [
     "static/css/main.873908ac.css",
-    "static/js/main.7cd5dde8.js"
+    "static/js/main.12a9fda4.js"
   ]
 }
