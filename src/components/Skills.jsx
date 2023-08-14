@@ -41,6 +41,7 @@ export const Skills = () => {
               <Box >  <img  className="skills-card-img" id='fontSkill_img' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNQ6ZmsiCzSC16bStr1KjZNcIBW5hAMa1ek6xoNeSSw5wQouq_N7dQCxlxI02TIeZk1e0&usqp=CAU" alt="react" /> <Text   className="skills-card-name"    id='skillName' >React</Text></Box>
               <Box >  <img  className="skills-card-img" id='fontSkill_img' src="https://cdn.worldvectorlogo.com/logos/redux.svg" alt="redux" />  <Text      id='skillName'>Redux</Text></Box>
               <Box >  <img  className="skills-card-img" id='fontSkill_img' src="https://avatars.githubusercontent.com/u/54212428?s=280&v=4" alt="chakra ui" />  <Text    className="skills-card-name"   id='skillName'>Chakra UI</Text></Box>
+              <Box >  <img  className="skills-card-img" id='fontSkill_img' src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png" alt="Bootstrap" />  <Text    className="skills-card-name"   id='skillName'>Bootstrap</Text></Box>
             </Box>
           </Box>)}
 
