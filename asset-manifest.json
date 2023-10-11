@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.873908ac.css",
-    "main.js": "/static/js/main.658a128e.js",
+    "main.js": "/static/js/main.7b420e12.js",
     "static/media/travel_pic.png": "/static/media/travel_pic.67d347d27c4f181d8741.png",
     "static/media/food.png": "/static/media/food.21ad00c4504d56a18062.png",
     "static/media/flipkart.png": "/static/media/flipkart.5289462bafafef7e566d.png",
@@ -14,10 +14,10 @@
     "static/media/abid.jpg": "/static/media/abid.bb6915a7c8bc9beaecba.jpg",
     "index.html": "/index.html",
     "main.873908ac.css.map": "/static/css/main.873908ac.css.map",
-    "main.658a128e.js.map": "/static/js/main.658a128e.js.map"
+    "main.7b420e12.js.map": "/static/js/main.7b420e12.js.map"
   },
   "entrypoints": [
     "static/css/main.873908ac.css",
-    "static/js/main.658a128e.js"
+    "static/js/main.7b420e12.js"
   ]
 }
