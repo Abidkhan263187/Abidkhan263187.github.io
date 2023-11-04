@@ -86,7 +86,7 @@ export const Nav = () => {
             bg: "gray.900",
             color: "#03c8d7"
           }}
-          href="https://drive.google.com/file/d/1tnkORlFHiOYmP2MzsdNSs0MbvB2m7-Mf/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1GkCTN-NMVmHpmkvmPvfEm95oUtg-2v8P/view?usp=drive_link"
           download={true}
           onClick={() => handleClick(resume)}
 
@@ -234,7 +234,7 @@ export const Nav = () => {
             color="brand"
             border="1px"
             borderRadius="10px"
-            href="https://drive.google.com/file/d/1tnkORlFHiOYmP2MzsdNSs0MbvB2m7-Mf/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1GkCTN-NMVmHpmkvmPvfEm95oUtg-2v8P/view?usp=drive_link"
             download={true}
             onClick={()=>handleClick(resume)}
             id="resume-button-1"

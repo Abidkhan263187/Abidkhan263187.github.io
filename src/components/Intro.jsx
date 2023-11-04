@@ -33,14 +33,13 @@ export const Intro = () => {
 
                     <Text data-aos="zoom-out-up" data-aos-duration="1000" mt={"30px"} >
                         <Button size={["sm", "md", "md", "md"]} id="resume-button-2" onClick={()=>handleclick(resume)}
-                        href="https://drive.google.com/file/d/1tnkORlFHiOYmP2MzsdNSs0MbvB2m7-Mf/view?usp=drive_link" as={Link}
+                        href="https://drive.google.com/file/d/1GkCTN-NMVmHpmkvmPvfEm95oUtg-2v8P/view?usp=drive_link" as={Link}
                         target="_blank" download={true}
                         color={"white"}
                     
                         _hover={{ bg: "gray.900", color: "#03c8d7", borderRadius: "10px" }}
                         bg={"#03c8d7"} >
                        Download Resume</Button></Text>
-                        {/* <a href="./resume\Abid_resume (3).pdf" download> resume</a> */}
                         </Box>
             </Box>
             <Box className='intro_right' data-aos="fade-down"  data-aos-duration="1000">
