@@ -1,5 +1,6 @@
 import { Box, Button, Divider, Text } from '@chakra-ui/react';
 import React, { useState } from 'react';
+import abidImg from './images/abidimage.jfif'
 
 export const AboutMe = () => {
   const [showMoreDetails, setShowMoreDetails] = useState(false);
@@ -10,8 +11,8 @@ export const AboutMe = () => {
   return (
     <Box id="about" className="about section"  >
         {/* <Text > About me</Text> */}
-      <Box className='about_left' data-aos="fade-down" >
-        <img  src='https://www.itprotoday.com/sites/itprotoday.com/files/styles/article_featured_retina/public/programming%20evolution.jpg?itok=WTj9-yNz' />
+      <Box className='about_left' margin={'-5% auto auto'} data-aos="fade-down" >
+        <img  src={abidImg} />
       </Box> 
       <Box className='about_right' >
         <Box  data-aos-duration="1200" > <Text  fontSize={["25px", "25px", "33px", "3xl"]} fontWeight={"700"} >About me</Text> </Box>
