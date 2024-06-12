@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.873908ac.css",
-    "main.js": "/static/js/main.11e3d5f6.js",
+    "main.js": "/static/js/main.0bb324a3.js",
     "static/media/travel_pic.png": "/static/media/travel_pic.67d347d27c4f181d8741.png",
     "static/media/food.png": "/static/media/food.21ad00c4504d56a18062.png",
-    "static/media/flipkart.png": "/static/media/flipkart.5289462bafafef7e566d.png",
     "static/media/funiture_project.png": "/static/media/funiture_project.cb0de6eaa13896b69ce1.png",
     "static/media/netflix.png": "/static/media/netflix.e9f0643aa379780aa372.png",
     "static/media/blog.png": "/static/media/blog.55a757de4aa67ee26fe1.png",
+    "static/media/xtrapp.PNG": "/static/media/xtrapp.e927be248388008d9101.PNG",
     "static/media/youtube.png": "/static/media/youtube.d7e4e0b831314e9375f4.png",
     "static/media/boat.png": "/static/media/boat.4ccf7daa30ac8c365a7b.png",
     "static/media/abid.jpg": "/static/media/abid.bb6915a7c8bc9beaecba.jpg",
+    "static/media/abidimage.jfif": "/static/media/abidimage.ee4e993e37ee5643bcc5.jfif",
     "static/media/Abid-khan-Resume.pdf": "/static/media/Abid-khan-Resume.7734a3c307f5162cdd04.pdf",
     "index.html": "/index.html",
     "main.873908ac.css.map": "/static/css/main.873908ac.css.map",
-    "main.11e3d5f6.js.map": "/static/js/main.11e3d5f6.js.map"
+    "main.0bb324a3.js.map": "/static/js/main.0bb324a3.js.map"
   },
   "entrypoints": [
     "static/css/main.873908ac.css",
-    "static/js/main.11e3d5f6.js"
+    "static/js/main.0bb324a3.js"
   ]
 }
