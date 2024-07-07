@@ -3,6 +3,7 @@ import React from 'react';
 export const Contacts = () => {
   const phoneNumber = '+91-62-8000-7521';
   const email = 'abidkhan263187@gmail.com';
+  const currentYear = new Date().getFullYear();
 
   return (
     <div id="contact" style={styles.container}>
@@ -25,7 +26,7 @@ export const Contacts = () => {
         </div>
       </div>
       <div> <p style={{fontWeight:"700"}}  
-    >Designed <span style={{color:"#03c8d7"}}>  &</span> develop by <span style={{color:"#03c8d7"}}>  Abid Khan <span style={{color:"green"}}> ©</span>  </span> 2023</p> </div>
+    >Designed <span style={{color:"#03c8d7"}}>  &</span> develop by <span style={{color:"#03c8d7"}}>  Abid Khan <span style={{color:"green"}}> ©</span>  </span> {currentYear}</p> </div>
     </div>
   );
 };
